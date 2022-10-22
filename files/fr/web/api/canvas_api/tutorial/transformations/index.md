@@ -236,7 +236,7 @@ Les paramètres de cette fonction sont :
 
 - `a (m11)`
   - : Mise à l'échelle horizontale.
-- _`b (m12)`_
+- `b (m12)`
   - : Inclinaison horizontale.
 - `c (m21)`
   - : Inclinaison verticale.

@@ -22,7 +22,7 @@ La matrice de transformation est décrite par : <math><semantics><mrow><mo>[</mo
 
 - `a (m11)`
   - : Échelle horizontale.
-- _`b (m12)`_
+- `b (m12)`
   - : Inclinaison horizontale.
 - `c (m21)`
   - : Inclinaison verticale.

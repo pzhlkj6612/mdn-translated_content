@@ -222,7 +222,7 @@ draw();
 
 - `a (m11)`
   - : Horizontal scaling.
-- _`b (m12)`_
+- `b (m12)`
   - : Horizontal skewing.
 - `c (m21)`
   - : Vertical skewing.
