@@ -274,7 +274,7 @@ function alertContents() {
 }
 ```
 
-`test.php 文件应该包含以下内容：`
+`test.php` 文件应该包含以下内容：
 
 ```php
 $name = (isset($_POST['userName'])) ? $_POST['userName'] : 'no name';
