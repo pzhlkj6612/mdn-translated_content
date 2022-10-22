@@ -36,7 +36,7 @@ Reflect.get(target, propertyKey[, receiver])
 
 ## 实例
 
-### `使用 Reflect.get()`
+### 使用 `Reflect.get()`
 
 ```js
 // Object

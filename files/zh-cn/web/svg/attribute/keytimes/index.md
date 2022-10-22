@@ -57,7 +57,7 @@ keyTimes 列表的语义取决于插值模式：
 
 ## 元素
 
-以下元素可以使用 `keyTimes 属性`
+以下元素可以使用 `keyTimes` 属性
 
 - {{ SVGElement("animate") }}
 - {{ SVGElement("animateColor") }}

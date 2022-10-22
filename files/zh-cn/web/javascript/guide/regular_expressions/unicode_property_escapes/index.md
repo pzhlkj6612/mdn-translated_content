@@ -76,7 +76,7 @@ story.match(/\p{Lu}|\p{Ll}|\p{Lt}|\p{Lm}|\p{Lo}/gu);
 
 某些语言使用不同的文字，如英语和西班牙语使用拉丁文，而阿拉伯语和俄语用阿拉伯文和俄文。`Script` 和 `Script_Extensions` Unicode 属性允许正则表达式根据字符所属的`文字`或该文字所属的`文字扩充`进行匹配。
 
-比如，`A` 属于 `拉丁文`，`ε` 属于`希腊 (Greek)`文。
+比如，`a` 属于拉丁文 (`Latin`)，`ε` 属于希腊文 (`Greek`)。
 
 ```js
 let mixedCharacters = "aεЛ";
@@ -85,7 +85,7 @@ let mixedCharacters = "aεЛ";
 mixedCharacters.match(/\p{Script=Latin}/u); // a
 
 // Using a short alias for the script
-mixedCharacters.match(/\p{Script=Grek}/u); // ε
+mixedCharacters.match(/\p{Script=Greek}/u); // ε
 
 // Using the short name Sc for the Script property
 mixedCharacters.match(/\p{Sc=Cyrillic}/u); // Л

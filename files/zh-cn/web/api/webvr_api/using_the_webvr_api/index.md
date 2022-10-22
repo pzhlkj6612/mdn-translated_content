@@ -85,7 +85,7 @@ navigator.getVRDevices().then(function(devices) {
 ```
 
 Here we grab the first instance we find of an {{domxref("HMDVRDevice")}} and store it in the `gHMD` variable. Next, we grab the first instance we find of a {{domxref("PositionSensorVRDevice")}} and store it in the `gPositionSensor` variable, but only if its {{domxref("VRDevice.hardWareUnitId")}} property matches that of the `gHMD` object. Separate devices that are part of the same overall hardware unit will share a hardware unit ID — this is how you check that you've got references to two matching devices.
-这段代码，先获取第一个找到 {{domxref("HMDVRDevice")}} 类型的对象引用，赋值给 gHMD 变量。若获取到了，然后，再找到一个 {{domxref("PositionSensorVRDevice")}} 类型的对象引用，并且它与 gHMD 的 {{domxref("VRDevice.hardWareUnitId")}} 属性值相同时，即找到配对的对象，赋值给`gPositionSensor 变量。同一套设备单元中的多个分离的设备会共享他们的` hardware unit ID，可以依此来检测两个设备对象是否是同一套。
+这段代码，先获取第一个找到 {{domxref("HMDVRDevice")}} 类型的对象引用，赋值给 gHMD 变量。若获取到了，然后，再找到一个 {{domxref("PositionSensorVRDevice")}} 类型的对象引用，并且它与 gHMD 的 {{domxref("VRDevice.hardWareUnitId")}} 属性值相同时，即找到配对的对象，赋值给`gPositionSensor` 变量。同一套设备单元中的多个分离的设备会共享他们的 hardware unit ID，可以依此来检测两个设备对象是否是同一套。
 
 ### Initialising the app 初始化 APP
 

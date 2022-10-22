@@ -120,7 +120,7 @@ div {
 
 ### 结果
 
-在这个例子中，每一个列表项都使用了不同的`background-repeat 语法。`
+在这个例子中，每一个列表项都使用了不同的`background-repeat` 语法。
 
 {{EmbedLiveSample("例子", 240, 360)}}
 

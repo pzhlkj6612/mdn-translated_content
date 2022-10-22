@@ -41,7 +41,7 @@ var obj = Reflect.construct(Foo, args);
 
 ### `Reflect.construct()` vs `Object.create()`
 
-`在新语法 Reflect`出现之前，是通过明确指定构造函数和原型对象（使用{{jsxref("Object.create()")}}）来创建一个对象的。
+在新语法 `Reflect`出现之前，是通过明确指定构造函数和原型对象（使用{{jsxref("Object.create()")}}）来创建一个对象的。
 
 ```js
 function OneClass() {

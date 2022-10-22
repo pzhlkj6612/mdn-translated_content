@@ -68,7 +68,7 @@ var promise = navigator.mediaDevices.getUserMedia(constraints);
     }
     ```
 
-    如果摄像头不支持请求的或者更高的分辨率，返回的 Promise 会处于 rejected 状态，`NotFoundError 作为`rejected 回调的参数，而且用户将不会得到要求授权的提示。
+    如果摄像头不支持请求的或者更高的分辨率，返回的 Promise 会处于 rejected 状态，`NotFoundError` 作为 rejected 回调的参数，而且用户将不会得到要求授权的提示。
 
     造成不同表现的原因是，相对于简单的请求值和`ideal`关键字而言，关键字`min`, `max`, 和 `exact`有着内在关联的强制性，请看一个更详细的例子：
 

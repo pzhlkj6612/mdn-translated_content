@@ -7,7 +7,7 @@ slug: Web/JavaScript/Reference/Global_Objects/Object/__defineSetter__
 
 ## 概述
 
-`__defineSetter__ 方法可以将一个函数绑定在当前对象的指定属性`上，当那个属性被赋值时，你所绑定的函数就会被调用。
+`__defineSetter__` 方法可以将一个函数绑定在当前对象的指定属性上，当那个属性被赋值时，你所绑定的函数就会被调用。
 
 ## 语法
 

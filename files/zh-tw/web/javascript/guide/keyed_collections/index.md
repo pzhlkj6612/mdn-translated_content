@@ -113,7 +113,7 @@ Array.from(mySet);
 mySet2 = new Set([1, 2, 3, 4]);
 ```
 
-### `比較 Array` 和 `Set`
+### 比較 `Array` 和 `Set`
 
 Traditionally, a set of elements has been stored in arrays in JavaScript in a lot of situations. The new `Set` object, however, has some advantages:
 

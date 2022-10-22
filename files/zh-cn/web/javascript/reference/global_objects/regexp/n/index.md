@@ -33,7 +33,7 @@ $1, ..., $9 属性是静态的，他不是独立的正则表达式属性。所�
 
 ## 例子
 
-### `$n` 在 `String.replace 中的应用`
+### `$n` 在 `String.replace` 中的应用
 
 以下脚本用 {{jsxref("String.prototype.replace()", "replace()")}} 方法去匹配一个 first last 格式的 name{{jsxref("String")}} 实例 输出 last first 格式。在替换文本里，脚本用 `$1` 和 `$2` 表示正则表达式中的括号匹配项的结果。
 

@@ -41,7 +41,7 @@ typedarray.some(callback[, thisArg])
 
 `callback` 期望 3 个参数：元素的值，元素的索引，和被遍历的数组对象。
 
-如果 `some` 提供 `thisArg`, 那么`thisArg`会作为 `callback` 调用时的`this 值`. 否则，`callback` 调用时的 `this` 是 `undefined`. `callback` 最终可观测的`this` 是根据 [确定函数 this 的通常规则](/zh-CN/docs/Web/JavaScript/Reference/Operators/this) 所确定的。
+如果 `some` 提供 `thisArg`, 那么`thisArg`会作为 `callback` 调用时的`this` 值. 否则，`callback` 调用时的 `this` 是 `undefined`. `callback` 最终可观测的`this` 是根据 [确定函数 this 的通常规则](/zh-CN/docs/Web/JavaScript/Reference/Operators/this) 所确定的。
 
 `some` 被调用不会改变 typed array .
 

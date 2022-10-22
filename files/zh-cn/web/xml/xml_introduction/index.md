@@ -80,7 +80,7 @@ XML 整体结构和 XML 是基于{{Glossary("tag")}}语言的。
 | &quot; | "    | 一个双引号 |
 | &apos; | '    | 一个单引号 |
 
-这里只有五个声明的方法，更多的方法可以借助 [Document Type Definition](/zh-CN/docs/Glossary/DTD) （文档的类定义）被引入。例如，为了创建一个`&warning 实体`，你可以这样做：
+这里只有五个声明的方法，更多的方法可以借助 [Document Type Definition](/zh-CN/docs/Glossary/DTD) （文档的类定义）被引入。例如，为了创建一个`&warning` 实体，你可以这样做：
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>

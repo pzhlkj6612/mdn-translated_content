@@ -23,7 +23,7 @@ function f(a, b, ...theArgs) {
 
 ### 其餘參數和 `arguments` 物件的差異
 
-以下是其餘參數和 `arguments 物件`三個主要的差異：
+以下是其餘參數和 `arguments` 物件三個主要的差異：
 
 - 其餘參數是 `arguments` 物件被傳入到函式的時候，還沒被指定變數名稱的引數。
 - `arguments` 物件不是一個實際的陣列，而 rest parameter 是陣列的實體，即 [`sort`](/zh-TW/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)、[`map`](/zh-TW/docs/Web/JavaScript/Reference/Global_Objects/Array/map)、[`forEach`](/zh-TW/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach) 或 [`pop`](/zh-TW/docs/Web/JavaScript/Reference/Global_Objects/Array/pop) 可以直接在其餘參數被調用。

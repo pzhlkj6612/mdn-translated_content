@@ -18,7 +18,7 @@ slug: Web/SVG/Attribute/kernelMatrix
 
 ## Elements
 
-下面的元素可以使用`kernelMatrix 属性`
+下面的元素可以使用`kernelMatrix` 属性
 
 - {{ SVGElement("feConvolveMatrix") }}
 

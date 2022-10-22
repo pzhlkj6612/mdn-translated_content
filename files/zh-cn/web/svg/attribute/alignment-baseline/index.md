@@ -56,7 +56,7 @@ text{
 
 ## 元素
 
-下列元素使用`alignment-baseline 属性：`
+下列元素使用`alignment-baseline` 属性：
 
 - {{ SVGElement("tspan") }}
 - {{ SVGElement("tref") }}

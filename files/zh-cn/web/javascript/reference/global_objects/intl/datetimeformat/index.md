@@ -89,13 +89,13 @@ Intl.DateTimeFormat.call(this[, locales[, options]])
 
 ### 属性
 
-`DateTimeFormat 实例集成以下原型的属性`:
+`DateTimeFormat` 实例集成以下原型的属性:
 
 {{page('/en-US/docs/Web/JavaScript/Reference/Global_Objects/DateTimeFormat/prototype', 'Properties')}}
 
 ### 方法
 
-`DateTimeFormat 实例集成以下原型的方法`:
+`DateTimeFormat` 实例集成以下原型的方法:
 
 {{page('/en-US/docs/Web/JavaScript/Reference/Global_Objects/DateTimeFormat/prototype', 'Methods')}}
 

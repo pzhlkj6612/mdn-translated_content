@@ -319,7 +319,7 @@ myIpAddress()
 
 获取当前 Firefox 所在设备的 IP 地址，并返回为标准格式的 IP 地址字符串。
 
-> **警告：** myIpAddress() 返回与 **`nslookup localhost` **命令在 Linux 主机上的执行结果相同的 IP 地址。不会返回公网 IP 地址。
+> **警告：** myIpAddress() 返回与 **`nslookup localhost`** 命令在 Linux 主机上的执行结果相同的 IP 地址。不会返回公网 IP 地址。
 
 #### 例子
 

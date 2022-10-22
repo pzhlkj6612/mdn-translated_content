@@ -79,7 +79,7 @@ with(node) {
 
 ## Polyfill
 
-兼容 ie9 或者更高版本的方法，You can polyfill the `before() method` in Internet Explorer 9 and higher with the following code:
+兼容 ie9 或者更高版本的方法，You can polyfill the `before()` method in Internet Explorer 9 and higher with the following code:
 
 ```js
 // from: https://github.com/jserz/js_piece/blob/master/DOM/ChildNode/before()/before().md

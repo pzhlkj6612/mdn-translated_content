@@ -275,7 +275,7 @@ var SimplePropertyRetriever = {
 
 ## Detection Table
 
-|                          | `in` | `for..in` | `hasOwnProperty` | `propertyIsEnumerable` | `in Object.keys` | `in Object.getOwnPropertyNames` | in Object.getOwnPropertyDescriptors |
+|                          | `in` | `for..in` | `hasOwnProperty` | `propertyIsEnumerable` | `in Object.keys` | `in Object.getOwnPropertyNames` | `in Object.getOwnPropertyDescriptors` |
 | ------------------------ | ---- | --------- | ---------------- | ---------------------- | ---------------- | ------------------------------- | ----------------------------------- |
 | Enumerable               | true | true      | true             | true                   | true             | true                            | true                                |
 | Nonenumerable            | true | false     | true             | false                  | false            | true                            | true                                |

@@ -49,7 +49,7 @@ function fetchVideo() {
 }
 ```
 
-> **备注：** 当 `abort()` 被调用，`fetch()` promise 将会抛出一个 `AbortError 对象`。
+> **备注：** 当 `abort()` 被调用，`fetch()` promise 将会抛出一个 `AbortError` 对象。
 
 你可以在 GitHub 上找到一个完整的使用示例——参见 [abort-api](https://github.com/mdn/dom-examples/tree/master/abort-api)（[也可以看在线演示](https://mdn.github.io/dom-examples/abort-api/)）。
 

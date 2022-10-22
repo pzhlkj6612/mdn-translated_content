@@ -33,7 +33,7 @@ void gl.enable(cap);参数
 
     | Constant                | Description                                                                                |
     | ----------------------- | ------------------------------------------------------------------------------------------ |
-    | `gl.RASTERIZER_DISCARD` | 图元光栅化阶段之前，但在任意的 transform 反馈之后，就立刻被丢弃。`gl.clear() 命令被忽略。` |
+    | `gl.RASTERIZER_DISCARD` | 图元光栅化阶段之前，但在任意的 transform 反馈之后，就立刻被丢弃。`gl.clear()` 命令被忽略。 |
 
 ### 返回值
 

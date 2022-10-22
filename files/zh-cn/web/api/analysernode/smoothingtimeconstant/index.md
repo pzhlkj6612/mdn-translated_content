@@ -31,7 +31,7 @@ analyser.smoothingTimeConstant = 1;
 
 更多的例子/信息，查看 [Voice-change-O-matic](http://mdn.github.io/voice-change-o-matic/) 演示 (相关代码在 [app.js 的 128 行\~205 行](https://github.com/mdn/voice-change-o-matic/blob/gh-pages/scripts/app.js#L128-L205)).
 
-`如果你对 smoothingTimeConstant()` 的效果好奇，可以尝试克隆上面的例子并设置 "`analyser.smoothingTimeConstant = 0;"` 代替。你会发现值的变化更加快速。
+如果你对 `smoothingTimeConstant()` 的效果好奇，可以尝试克隆上面的例子并设置 "`analyser.smoothingTimeConstant = 0;"` 代替。你会发现值的变化更加快速。
 
 ```js
 var audioCtx = new (window.AudioContext || window.webkitAudioContext)();

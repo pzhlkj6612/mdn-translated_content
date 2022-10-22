@@ -19,7 +19,7 @@ typedarray.copyWithin(target, start[, end = this.length])
   - : 目标起始位置的下标，复制元素到这里。
 - `start`
   - : 源起始位置的下标，在这里开始复制元素。
-- `end {{optional_inline}}`
+- `end` {{optional_inline}}
   - : 可选。源终止位置的下标，在这里停止复制元素。
 
 ### 返回值

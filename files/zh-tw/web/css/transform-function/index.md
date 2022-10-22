@@ -624,7 +624,7 @@ The `scale()` CSS function modifies the size of the element. It can either augme
 
 This transformation is characterized by a vector whose coordinates define how much scaling is done in each direction. If both coordinates of the vector are equal, the scaling is uniform, or isotropic, and the shape of the element is preserved. In that case, the scaling function defines a homothetic transformation.
 
-When outside the `]-1, 1[` range, the scaling enlarges the element in the direction of the coordinate; when inside the range, it shrinks the element in that direction. When equal to `1` it does nothing and when negative it performs a _point reflection_ and the size modification.
+When outside the `[-1, 1]` range, the scaling enlarges the element in the direction of the coordinate; when inside the range, it shrinks the element in that direction. When equal to `1` it does nothing and when negative it performs a _point reflection_ and the size modification.
 
 > **備註：** The `scale()` function only applies the transformation in the Euclidian plane (in 2D). To scale in the space, the `scale3D()` function has to be used.
 

@@ -165,7 +165,7 @@ Content-Security-Policy: default-src 'none'; style-src cdn.example.com; report-u
 </html>
 ```
 
-你能看出其中错误吗？样式表仅允许加载自`cdn.example.com，`然而该页面企图从自己的源 (`http://example.com`) 加载。当该文档被访问时，一个兼容 CSP 的浏览器将以 POST 请求的形式发送违规报告到 `http://example.com/_/csp-reports`，内容如下：
+你能看出其中错误吗？样式表仅允许加载自`cdn.example.com`，然而该页面企图从自己的源 (`http://example.com`) 加载。当该文档被访问时，一个兼容 CSP 的浏览器将以 POST 请求的形式发送违规报告到 `http://example.com/_/csp-reports`，内容如下：
 
 ```plain
 {
@@ -179,7 +179,7 @@ Content-Security-Policy: default-src 'none'; style-src cdn.example.com; report-u
 }
 ```
 
-如你所见，该报告在 `blocked-uri 字段` 中包含了违规资源的完整路径，但情况并非总是如此。比如，当 signup.html 试图从 [`http://anothercdn.example.com/stylesheet.css`](http://anothercdn.example.com/stylesheet.css) 加载 CSS 时，浏览器将不会包含完整路径，而只会保留源路径 (`http://anothercdn.example.com`)。CSP 技术规范小组对此古怪行为给出了[解释](https://www.w3.org/TR/CSP/#violation-reports)。大体上说，这样是为了防止泄露跨域资源的敏感信息。
+如你所见，该报告在 `blocked-uri` 字段中包含了违规资源的完整路径，但情况并非总是如此。比如，当 signup.html 试图从 [`http://anothercdn.example.com/stylesheet.css`](http://anothercdn.example.com/stylesheet.css) 加载 CSS 时，浏览器将不会包含完整路径，而只会保留源路径 (`http://anothercdn.example.com`)。CSP 技术规范小组对此古怪行为给出了[解释](https://www.w3.org/TR/CSP/#violation-reports)。大体上说，这样是为了防止泄露跨域资源的敏感信息。
 
 ## 浏览器兼容性
 

@@ -169,7 +169,7 @@ function drop(e) {
 }
 ```
 
-`這邊我們用 dataTransfer` 來獲取檔案清單, 並傳遞給 `handleFiles()`。 我們可以發現，不論使用拖放或是其他取得檔案，處理檔案的方式都是相同。
+這邊我們用 `dataTransfer` 來獲取檔案清單, 並傳遞給 `handleFiles()`。 我們可以發現，不論使用拖放或是其他取得檔案，處理檔案的方式都是相同。
 
 ## 範例：顯示選取的圖片
 
@@ -357,7 +357,7 @@ function FileUpload(img, file) {
 5. The `FileReader` object is used to convert the file to a binary string.
 6. Finally, when the content is loaded the `XMLHttpRequest` function `sendAsBinary()` is called to upload the file's content.
 
-> **備註：** 範例中非標準的 `sendAsBinary` 方法已經在 Gecko 31 {{ geckoRelease(31) }} 廢棄且很快將會被移除。可以改使用標準的 `send(Blob data)。`
+> **備註：** 範例中非標準的 `sendAsBinary` 方法已經在 Gecko 31 {{ geckoRelease(31) }} 廢棄且很快將會被移除。可以改使用標準的 `send(Blob data)` 。
 
 ### 非同步處理上傳檔案的程序
 

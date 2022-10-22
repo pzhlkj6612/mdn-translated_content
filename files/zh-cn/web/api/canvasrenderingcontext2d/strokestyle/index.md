@@ -91,7 +91,7 @@ window.addEventListener("load", drawCanvas);
 
 ### `strokeStyle` 例子
 
-这个例子使用 `strokeStyle 属性改变图形轮廓线的颜色。`我们使用 {{domxref("CanvasRenderingContext2D.arc", "arc()")}} 绘制圆形来代替正方形。
+这个例子使用 `strokeStyle` 属性改变图形轮廓线的颜色。我们使用 {{domxref("CanvasRenderingContext2D.arc", "arc()")}} 绘制圆形来代替正方形。
 
 ```js
 var ctx = document.getElementById('canvas').getContext('2d');

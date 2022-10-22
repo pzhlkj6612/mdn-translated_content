@@ -66,7 +66,7 @@ slug: Web/API/Window/unload_event
 </html>
 ```
 
-下面是 `child-frame.html 的内容`:
+下面是 `child-frame.html` 的内容:
 
 ```html
 <!DOCTYPE html>

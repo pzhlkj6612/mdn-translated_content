@@ -26,7 +26,7 @@ numObj.toExponential([fractionDigits])
 ### Exceptions
 
 - {{jsxref("RangeError")}}
-  - : `若 fractionDigits` 超出範圍（可接受的範圍是 0 ～ 20 之間的正整數）觸發 {{jsxref("RangeError")}}。
+  - : 若 `fractionDigits` 超出範圍（可接受的範圍是 0 ～ 20 之間的正整數）觸發 {{jsxref("RangeError")}}。
 - {{jsxref("TypeError")}}
   - : 若參數 `fractionDigits` 不是 {{jsxref("Number")}}，則觸發{{jsxref("TypeError")}}。
 

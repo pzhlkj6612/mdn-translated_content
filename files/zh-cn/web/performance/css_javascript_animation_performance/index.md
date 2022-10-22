@@ -48,7 +48,7 @@ CSS 中过渡和动画都可以用于编写动画，它们都有各自的使用�
 
 动画可以通过点击"toggle"按钮切换到 `requestAnimationFrame()` 。
 
-试着两个都运行一下，比较两者的 FPS 值（第一个紫色框），可以看到 CSS 动画和`requestAnimationFrame() 是非常接近的`。
+试着两个都运行一下，比较两者的 FPS 值（第一个紫色框），可以看到 CSS 动画和`requestAnimationFrame()` 是非常接近的。
 
 ### 脱离主线程的动画
 

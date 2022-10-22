@@ -49,7 +49,7 @@ _从{{domxref("AudioNode")}}继承的属性_.
 
 ## 例子
 
-`AudioDestinationNode 不需要使用复杂的设置` — 在默认情况下只是简单的代表使用者系统的输出 (例如他们的扬声器)，这样你就可以使用几行代码来与内置音频图标挂钩：
+`AudioDestinationNode` 不需要使用复杂的设置 — 在默认情况下只是简单的代表使用者系统的输出 (例如他们的扬声器)，这样你就可以使用几行代码来与内置音频图标挂钩：
 
 ```js
 var audioCtx = new AudioContext();

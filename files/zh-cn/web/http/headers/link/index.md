@@ -22,7 +22,7 @@ link 头部包含以 `;` 分隔的参数，这些参数与 HTML 元素 {{HTMLEle
 
 ## 示例
 
-URI 必须要用 `<` 和 `> 来关闭：`
+URI 必须要用 `<` 和 `>` 来关闭：
 
 ```http example-good
 Link: <https://example.com>; rel="preload"

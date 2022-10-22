@@ -5,7 +5,7 @@ slug: Web/API/Document/getElementsByTagName
 
 {{ ApiRef("DOM") }}
 
-返回一个包括所有给定标签名称的元素的 HTML 集合{{domxref("HTMLCollection")}}。整个文件结构都会被搜索，包括根节点。返回的 `HTML 集合`是动态的，意味着它可以自动更新自己来保持和 DOM 树的同步而不用再次调用 `document.getElementsByTagName()`。
+返回一个包括所有给定标签名称的元素的 HTML 集合{{domxref("HTMLCollection")}}。整个文件结构都会被搜索，包括根节点。返回的 HTML 集合是动态的，意味着它可以自动更新自己来保持和 DOM 树的同步而不用再次调用 `document.getElementsByTagName()`。
 
 ## 语法
 
@@ -20,7 +20,7 @@ var elements = document.getElementsByTagName(name);
 
 ## 例子
 
-在以下的例子中，`getElementsByTagName()` 开始于一个具体的父级元素并且从它自上而下递归地在`DOM 树中`搜索符合标签名称参数的子元素。
+在以下的例子中，`getElementsByTagName()` 开始于一个具体的父级元素并且从它自上而下递归地在 DOM 树中搜索符合标签名称参数的子元素。
 
 注意调用 `getElementsByTagName()` 的不是那个文件节点 document，事实上是使用这个方法 {{domxref("element.getElementsByTagName()")}}。
 

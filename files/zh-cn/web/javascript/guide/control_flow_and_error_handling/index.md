@@ -173,7 +173,7 @@ switch (expression) {
 
 程序首先查找一个与 `expression` 匹配的 `case` 语句，然后将控制权转移到该子句，执行相关的语句。如果没有匹配值，程序会去找 `default` 语句，如果找到了，控制权转移到该子句，执行相关的语句。如果没有找到 `default`，程序会继续执行 `switch` 语句后面的语句。`default` 语句通常出现在 switch 语句里的最后面，当然这不是必须的。
 
-`可选的 break` 语句与每个 `case` 语句相关联，保证在匹配的语句被执行后程序可以跳出 `switch` 并且继续执行 `switch` 后面的语句。如果 break 被忽略，则程序将继续执行 switch 语句中的下一条语句。
+可选的 `break` 语句与每个 `case` 语句相关联，保证在匹配的语句被执行后程序可以跳出 `switch` 并且继续执行 `switch` 后面的语句。如果 break 被忽略，则程序将继续执行 switch 语句中的下一条语句。
 
 **示例**
 在如下示例中，如果 `fruittype` 等于 "Bananas", 程序匹配到对应 "Bananas" 的`case` 语句，并执行相关语句。当执行到 `break` 时，程序结束了 `switch` 并执行 `switch` 后面的语句。如果不写 `break` ，那么程序将会执行 `case "Cherries"` 下的语句。

@@ -5,9 +5,9 @@ slug: Web/CSS/::grammar-error
 
 {{CSSRef}}{{SeeCompatTable}}
 
-`::grammar-error 伪元素应用于浏览器标识为语法错误的文本段`
+`::grammar-error` 伪元素应用于浏览器标识为语法错误的文本段
 
-只有一小部分的 css 能够应用在`::grammar-error 的选择器中`
+只有一小部分的 css 能够应用在`::grammar-error` 的选择器中
 
 - {{cssxref("color")}}
 - {{cssxref("background-color")}}

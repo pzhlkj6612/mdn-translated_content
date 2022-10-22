@@ -27,11 +27,11 @@ slug: Web/API/FormData
 - {{domxref("FormData.entries()")}}
   - : 返回一个包含所有键值对的{{jsxref("Iteration_protocols","iterator")}}对象。
 - {{domxref("FormData.get()")}}
-  - : `返回在 FormData` 对象中与给定键关联的第一个值。
+  - : 返回在 `FormData` 对象中与给定键关联的第一个值。
 - {{domxref("FormData.getAll()")}}
   - : 返回一个包含 `FormData` 对象中与给定键关联的所有值的数组。
 - {{domxref("FormData.has()")}}
-  - : `返回一个布尔值表明 FormData` 对象是否包含某些键。
+  - : 返回一个布尔值表明 `FormData` 对象是否包含某些键。
 - {{domxref("FormData.keys()")}}
   - : 返回一个包含所有键的{{jsxref("Iteration_protocols","iterator")}}对象。
 - {{domxref("FormData.set()")}}

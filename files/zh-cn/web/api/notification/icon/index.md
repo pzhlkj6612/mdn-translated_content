@@ -21,7 +21,7 @@ var icon = Notification.icon;
 
 ## 示例
 
-在此[示例](https://github.com/mdn/emogotchi)中，当我们想要发出一个通知时，我们运行一个简单的 `spawnNotification() 函数`——这是传递参数来指定我们想要的主体、图标和标题，然后它创建必要的`options`对象，并使用{{domxref("Notification.Notification","Notification()")}}构造函数来触发通知。
+在此[示例](https://github.com/mdn/emogotchi)中，当我们想要发出一个通知时，我们运行一个简单的 `spawnNotification()` 函数——这是传递参数来指定我们想要的主体、图标和标题，然后它创建必要的`options`对象，并使用{{domxref("Notification.Notification","Notification()")}}构造函数来触发通知。
 
 ```js
 function spawnNotification(theBody,theIcon,theTitle) {

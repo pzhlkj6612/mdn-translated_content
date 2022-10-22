@@ -45,7 +45,7 @@ var p = new Proxy(target, {
 
 如果违反了下列规则，则 proxy 将抛出一个 {{jsxref("TypeError")}}：
 
-- `如果 target` 不可扩展，原型参数必须与 `Object.getPrototypeOf(target)` 的值相同。
+- 如果 `target` 不可扩展，原型参数必须与 `Object.getPrototypeOf(target)` 的值相同。
 
 ## 示例
 

@@ -154,7 +154,7 @@ p_list = doc.getElementsByTagName("para");
 
 ## DOM 接口
 
-本指南对你可以用来操作 DOM 层级的对象以及事物进行了介绍。例如， `HTML form` 元素从 `HTMLFormElement` 接口中获取它的 **`name`** 属性，从 `HTMLElement` 接口中获取 **`className`** 属性。在上面情况中，您要获取的属性都只在 form 对象中。
+本指南对你可以用来操作 DOM 层级的对象以及事物进行了介绍。例如， HTML `form` 元素从 `HTMLFormElement` 接口中获取它的 **`name`** 属性，从 `HTMLElement` 接口中获取 **`className`** 属性。在上面情况中，您要获取的属性都只在 form 对象中。
 
 但是由 DOM 实现的对象和接口间的关系是容易被混淆的，因此本节会尝试去对 DOM 标准中的一些常用的接口进行说明以及它们是怎样生效的。
 

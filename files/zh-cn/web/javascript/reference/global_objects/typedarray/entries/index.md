@@ -19,7 +19,7 @@ arr.entries()
 
 ## 示例
 
-### `使用 for...of` 循环的迭代
+### 使用 `for...of` 循环的迭代
 
 ```js
 var arr = new Uint8Array([10, 20, 30, 40, 50]);

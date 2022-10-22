@@ -41,7 +41,7 @@ window.alert("Hello world!");
 
 The following text is shared between this article, DOM:window\.prompt and DOM:window\.confirm 这里显示的对话框是一个模态窗口，它能阻止用户对浏览器窗口界面的其他部位进行操作，你不应该过多的使用这种模态窗口。
 
-扩展开发者有时候需要使用[nsIPromptService](/zh-CN/nsIPromptService)接口来代替`该 alert`方法。
+扩展开发者有时候需要使用[nsIPromptService](/zh-CN/nsIPromptService)接口来代替该 `alert`方法。
 
 从 Firefox 4 开始，在网页中弹出的对话框都换成了标签页范围内的模态窗口，即不会影响其他的标签页，同时还能阻止过多次数的弹窗。
 

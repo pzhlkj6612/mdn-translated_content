@@ -51,7 +51,7 @@ line{
 
 ## 元素
 
-下列元素可以使用`stroke-dasharray 属性：`
+下列元素可以使用`stroke-dasharray` 属性：
 
 - [形状元素](/zh-CN/SVG/Element#Shape_elements) »
 - [文本内容元素](/zh-CN/SVG/Element#Text_content_elements) »

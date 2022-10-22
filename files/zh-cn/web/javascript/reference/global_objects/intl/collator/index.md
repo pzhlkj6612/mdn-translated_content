@@ -69,11 +69,11 @@ Intl.Collator.call(this[, locales[, options]])
 - {{jsxref("Collator.supportedLocalesOf", "Intl.Collator.supportedLocalesOf()")}}
   - : 返回包含所支持的所提供语言环境的数组的数组，而不必回退到运行时的默认语言环境。
 
-## `Collator 实例`
+## `Collator` 实例
 
 ### 属性
 
-`Collator 实例从其原型继承以下属性：`
+`Collator` 实例从其原型继承以下属性：
 
 {{page('en-US/docs/Web/JavaScript/Reference/Global_Objects/Collator/prototype', 'Properties')}}
 

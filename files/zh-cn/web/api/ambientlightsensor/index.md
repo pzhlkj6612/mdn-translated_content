@@ -10,7 +10,7 @@ slug: Web/API/AmbientLightSensor
 ## 实例
 
 - {{domxref("AmbientLightSensor.AmbientLightSensor()")}}
-  - : `创建一个新的 AmbientLightSensor` 对象。
+  - : 创建一个新的 `AmbientLightSensor` 对象。
 
 ## 属性
 

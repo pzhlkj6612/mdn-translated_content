@@ -32,7 +32,7 @@ slug: Web/CSS/:dir
 </div>
 ```
 
-本例中 `:dir(rtl)` 会匹配最外层的 div，内容为`test1 的 span，`和有希伯来字符的 div。`:dir(ltr)` 会匹配到内容为`test2 的 div.`
+本例中 `:dir(rtl)` 会匹配最外层的 div，内容为`test1` 的 span，和有希伯来字符的 div。`:dir(ltr)` 会匹配到内容为`test2` 的 div.
 
 ## 规范
 

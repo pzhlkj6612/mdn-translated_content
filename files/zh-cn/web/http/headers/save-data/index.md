@@ -48,7 +48,7 @@ Content-Type: image/jpeg
 [...]
 ```
 
-### 不携带 `Save-Data 请求头`
+### 不携带 `Save-Data` 请求头
 
 请求示例：
 

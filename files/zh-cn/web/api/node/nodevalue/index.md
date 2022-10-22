@@ -18,7 +18,7 @@ value 是一个包含当前节点的值的字符串（如果有的话）。
 
 ### 值
 
-对于文档节点来说，`nodeValue`返回`null`. 对于 text, comment，和 CDATA 节点来说，`nodeValue 返回该节点的文本内容`. 对于 attribute 节点来说，返回该属性的属性值。
+对于文档节点来说，`nodeValue`返回`null`. 对于 text, comment，和 CDATA 节点来说，`nodeValue` 返回该节点的文本内容. 对于 attribute 节点来说，返回该属性的属性值。
 
 下表就是不同类型的节点所返回的该属性的值。
 

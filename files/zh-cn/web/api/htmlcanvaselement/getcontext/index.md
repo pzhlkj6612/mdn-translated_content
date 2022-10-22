@@ -18,7 +18,7 @@ var ctx = canvas.getContext(contextType, contextAttributes);
 
 ### 参数
 
-- 上下文类型（contextType）
+- `contextType`
 
   - : 是一个指示使用何种上下文的 {{domxref("DOMString")}} 。可能的值是：
 
@@ -29,7 +29,7 @@ var ctx = canvas.getContext(contextType, contextAttributes);
 
     > **备注：** 标识符 "`experimental-webgl`" 或 "`experimental-webgl2`" 用于新 [WebGL](/zh-CN/docs/Web/WebGL)的实现。这些实现还没有达到测试套件一致性或图形驱动程序平台局势尚不稳定。[Khronos Group](https://www.khronos.org/) 集团认证[WebGL](/zh-CN/docs/Web/WebGL) 实现在某些[一致性规则](https://www.khronos.org/registry/webgl/sdk/tests/CONFORMANCE_RULES.txt)。
 
-- `上下文属性 (contextAttributes)`
+- `contextAttributes`
 
   - : 你可以在创建渲染上下文的时候设置多个属性，例如：
 

@@ -43,7 +43,7 @@ _`requestFullscreen()` 通过拒绝返回的 `Promise`来生成错误条件，�
 
 ## 示例
 
-在调用`requestFullScreen() 之前，可以对`{{event("fullscreenchange")}} 和 {{event("fullscreenerror")}}事件进行监听，这样在请求进入全屏模式成功或者失败时都能收到事件通知。
+在调用`requestFullScreen()` 之前，可以对{{event("fullscreenchange")}} 和 {{event("fullscreenerror")}}事件进行监听，这样在请求进入全屏模式成功或者失败时都能收到事件通知。
 
 ## 规范
 

@@ -23,7 +23,7 @@ Service worker 最终要去解决这些问题。虽然 Service Worker 的语法�
 
 - **Firefox Nightly**: 访问 `about:config` 并设置 `dom.serviceWorkers.enabled` 的值为 true; 重启浏览器；
 - **Chrome Canary**: 访问 `chrome://flags` 并开启 `experimental-web-platform-features`; 重启浏览器 (注意：有些特性在 Chrome 中没有默认开放支持)；
-- **Opera**: 访问 `opera://flags` 并开启 `ServiceWorker 的支持`; 重启浏览器。
+- **Opera**: 访问 `opera://flags` 并开启 `ServiceWorker` 的支持; 重启浏览器。
 
 另外，你需要通过 HTTPS 来访问你的页面 — 出于安全原因，Service Workers 要求必须在 HTTPS 下才能运行。Github 是个用来测试的好地方，因为它就支持 HTTPS。为了便于本地开发，`localhost` 也被浏览器认为是安全源。
 

@@ -124,7 +124,7 @@ var var2 = 4;
 | 自减 (`--`)       | 一元运算符。将操作数的值减一。前后缀两种用法的返回值类似自增运算符。                                                                           | var x=3; console.log(--x); //输入 2,x=2var y=3;console.log(y--);//输出 3,x=2;                                  |
 | 一元负值符 (`-`)  | 一元运算符，返回操作数的负值。                                                                                                                 | var x=3; console.log(-x); //输入 -3                                                                             |
 | 一元正值符 (+)    | 一元运算符，如果操作数在之前不是 number，试图将其转换为 number                                                                                 | `console.log( +'3' ); // 3` `console.log( '3' ); // '3'` `console.log(+true); // 1`                              |
-| 指数运算符 (\*\*) | 计算 `base(底数)` 的 `exponent(`指数`) 次方`, 表示为`base^exponent`                                                                            | `2 ** 3` returns `8`. `10 ** -1` returns `0.1`.                                                                |
+| 指数运算符 (\*\*) | 计算 `base(底数)` 的 `exponent(指数)` 次方, 表示为`base^exponent`                                                                            | `2 ** 3` returns `8`. `10 ** -1` returns `0.1`.                                                                |
 |                   |                                                                                                                                                |                                                                                                                |
 
 ### 位运算符
@@ -494,7 +494,7 @@ objectName instanceof objectType
 
 当你需要确认一个对象在运行时的类型时，可使用`instanceof`. 例如，需要 catch 异常时，你可以针对抛出异常的类型，来做不同的异常处理。
 
-例如，下面的代码使用`instanceof`去判断 `theDay`是否是一个 `Date` 对象。`因为 theDay`是一个`Date`对象，`所以 if`中的代码会执行。
+例如，下面的代码使用`instanceof`去判断 `theDay`是否是一个 `Date` 对象。因为 `theDay`是一个`Date`对象，所以 `if`中的代码会执行。
 
 ```js
 var theDay = new Date(1995, 12, 17);
@@ -642,7 +642,7 @@ super([arguments]); // calls the parent constructor. super.functionOnParent([arg
 
 [扩展语句](/zh-CN/docs/Web/JavaScript/Reference/Operators/Spread_operator)符允许一个表达式在原地展开，当需要多个参数 (比如函数调用时) 或者多个值 (比如字面量数组) 。
 
-**例如：**现在你有一个数组，你想创建一个新数组，并将刚才那个作为它的一部分，用 array 的字面语法是不够的，你不得不写一些代码实现它，比如用些`push`, `splice`, `concat 等等。但是用`spread syntax 就没问题了：
+**例如：**现在你有一个数组，你想创建一个新数组，并将刚才那个作为它的一部分，用 array 的字面语法是不够的，你不得不写一些代码实现它，比如用些`push`, `splice`, `concat` 等等。但是用spread syntax 就没问题了：
 
 ```plain
 var parts = ['shoulder', 'knees'];

@@ -465,7 +465,7 @@ Array.prototype.forEach.call("a string", function(chr) {
 
 ## 数组推导式（Array comprehensions）
 
-在[JavaScript 1.7](/zh-CN/docs/Web/JavaScript/New_in_JavaScript/1.7) 被介绍并计划在 [ECMAScript 7](/zh-CN/docs/Web/JavaScript/New_in_JavaScript/ECMAScript_7_support_in_Mozilla), [array comprehensions](/zh-CN/docs/Web/JavaScript/Reference/Operators/Array_comprehensions) 被规范化并提供一个有用的快捷方式，用来实现如何在另一个数组的基础上构造一个新的数组。推导式可以经常被用在那些需要调用 `map()` 和 `filter() 函数的地方，`或作为一种结合这两种方式。
+在[JavaScript 1.7](/zh-CN/docs/Web/JavaScript/New_in_JavaScript/1.7) 被介绍并计划在 [ECMAScript 7](/zh-CN/docs/Web/JavaScript/New_in_JavaScript/ECMAScript_7_support_in_Mozilla), [array comprehensions](/zh-CN/docs/Web/JavaScript/Reference/Operators/Array_comprehensions) 被规范化并提供一个有用的快捷方式，用来实现如何在另一个数组的基础上构造一个新的数组。推导式可以经常被用在那些需要调用 `map()` 和 `filter()` 函数的地方，或作为一种结合这两种方式。
 
 下面的推导式创建一个数字数组并且创建一个新的数组，数组的每个元素都是原来数值的两倍（译者注：这种形式类似于 Python 的列表推导式）。
 
@@ -533,7 +533,7 @@ var interpolatedZeros = [c+'0' for (c of str) ].join(''); // 'a0b0c0d0e0f0'
 
 ### 类型数组视图 (Typed array views)
 
-类型数组视图具有自描述性的名字，并且提供数据类型信息，例如`Int8`, `Uint32`, `Float64 等等。`如一个特定类型数组视图`Uint8ClampedArray`. 它意味着数据元素只包含 0 到 255 的整数值。它通常用于[Canvas 数据处理](/zh-CN/docs/Web/API/ImageData),例如。
+类型数组视图具有自描述性的名字，并且提供数据类型信息，例如`Int8`, `Uint32`, `Float64` 等等。如一个特定类型数组视图`Uint8ClampedArray`. 它意味着数据元素只包含 0 到 255 的整数值。它通常用于[Canvas 数据处理](/zh-CN/docs/Web/API/ImageData),例如。
 
 {{page("/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray", "TypedArray_objects")}}
 

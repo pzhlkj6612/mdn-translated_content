@@ -57,7 +57,7 @@ console.log('the word is %s try number %d', 'foo', 123);
 // 输出：the word is foo try number 123
 ```
 
-`但是 console.assert` 在不同浏览器中可能获得不同的效果：
+但是 `console.assert` 在不同浏览器中可能获得不同的效果：
 
 ```js
 console.assert(false, 'the word is %s', 'foo');

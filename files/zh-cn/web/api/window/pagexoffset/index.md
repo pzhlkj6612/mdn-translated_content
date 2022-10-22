@@ -5,7 +5,7 @@ slug: Web/API/Window/pageXOffset
 
 {{ APIRef() }}
 
-这是 `scrollX 的别名`
+这是 `scrollX` 的别名
 
 ## 规范
 

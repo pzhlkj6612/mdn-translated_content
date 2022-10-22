@@ -32,7 +32,7 @@ formData.getAll(name);
 var formData = new FormData();
 ```
 
-使用 {{domxref("FormData.append")}} 添加两个 `username 的值：`
+使用 {{domxref("FormData.append")}} 添加两个 `username` 的值：
 
 ```js
 formData.append('username', 'Chris');

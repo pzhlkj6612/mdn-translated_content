@@ -196,7 +196,7 @@ some more inline content...
 
 ### 备注
 
-居中一个块元素且不居中它的行内内容的标准兼容的方法是将它的左、右`margin 设为`auto，例如：
+居中一个块元素且不居中它的行内内容的标准兼容的方法是将它的左、右`margin` 设为`auto`，例如：
 
 `margin:auto;` 或`margin:0 auto;` 或`margin-left:auto; margin-right:auto;`
 

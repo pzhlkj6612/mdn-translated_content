@@ -17,7 +17,7 @@ expr1, expr2, expr3...
 
 ## 参数
 
-- `expr1`, `expr2, expr3...`
+- `expr1`, `expr2`, `expr3...`
   - : 任一表达式。
 
 ## 描述

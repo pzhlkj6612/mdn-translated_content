@@ -50,13 +50,13 @@ slug: Web/API/Attr
 - `childNodes` {{Deprecated_Inline}}
   - : 当前该属性总是返回一个空的 {{domxref("NodeList")}}.
 - `firstChild` {{Deprecated_Inline}}
-  - : `当前该属性总是返回 NULL`
+  - : 当前该属性总是返回 `NULL`
 - `isId` {{readOnlyInline}}
   - : 表明该属性是否一个“ID 属性”。“ID 属性”的值在整个 DOM 文档中应当是唯一。在 HTML DOM 文档中属性“id”是一个 ID 属性，也是唯一一个 ID 属性；但是在 XML 文档中可以定义其他 ID 属性。一个属性是否是唯一的，通常由{{Glossary("DTD")}}或其他文档模式描述文件决定。
 - `lastChild`
-  - : `当前该属性总是返回 NULL`
+  - : 当前该属性总是返回 `NULL`
 - `nextSibling`
-  - : `当前该属性总是返回 NULL`
+  - : 当前该属性总是返回 `NULL`
 - `nodeName`
   - : 使用{{domxref("Attr.name")}}来代替
 - `nodeType`
@@ -66,13 +66,13 @@ slug: Web/API/Attr
 - `ownerDocument`
   - : 这个属性本不应当在这里被使用，所以应该无须担心其演变
 - `parentNode`
-  - : `当前该属性总是返回 NULL`
+  - : 当前该属性总是返回 `NULL`
 - `previousSibling`
-  - : `当前该属性总是返回 NULL`
+  - : 当前该属性总是返回 `NULL`
 - `schemaTypeInfo` {{Deprecated_Inline}} {{readOnlyInline}}
   - : 当前属性的类型信息。然而当加载完文档完或调用{{domxref("Document.normalizeDocument")}}后，这个被认定为绝对正确的包含在节点内的类型信息，会因为节点的移动而变得不可信。
 - `specified`
-  - : `当前该属性总是返回 true`
+  - : 当前该属性总是返回 `true`
 - `textContent`
   - : 使用{{domxref("Attr.value")}}来代替
 

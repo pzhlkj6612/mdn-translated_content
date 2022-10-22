@@ -130,7 +130,7 @@ function Person() {
 
 或者透過 [bind](/zh-TW/docs/Web/JavaScript/Reference/Global_Objects/Function/bind) 函式來綁定 `this` 變數到指定函式（以上面為例，就是 `growUp()` 函式）。
 
-箭頭函式並不擁有自己的 `this 變`數`；`使用的 this `值來自`封閉的文本上下文，也就是說，箭頭函式遵循常規變量查找規則。因此，如果在當前範圍中搜索不到 this 變量時，他們最終會尋找其封閉範圍。
+箭頭函式並不擁有自己的 `this` 變數；使用的 `this` 值來自封閉的文本上下文，也就是說，箭頭函式遵循常規變量查找規則。因此，如果在當前範圍中搜索不到 this 變量時，他們最終會尋找其封閉範圍。
 
 因此，在以下程式碼內，傳遞給 `setInterval` 的 箭頭函式中的`this` ，會與封閉函式的 `this` 值相同：
 

@@ -25,12 +25,12 @@ arr.some(callback[, thisArg])
 
     - `currentValue`
       - : 目前正要被處理的陣列元素。
-    - `index{{Optional_inline}}`
+    - `index` {{Optional_inline}}
       - : 目前正要被處理的陣列元素之索引值。
-    - `array{{Optional_inline}}`
+    - `array` {{Optional_inline}}
       - : 呼叫 `some()` 的陣列。
 
-- `thisArg{{Optional_inline}}`
+- `thisArg` {{Optional_inline}}
   - : 執行 `callback` 回呼函式的 `this` 值。
 
 ### 回傳值

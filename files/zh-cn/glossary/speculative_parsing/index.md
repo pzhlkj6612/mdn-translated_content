@@ -12,11 +12,11 @@ original_slug: Web/HTML/Optimizing_your_pages_for_speculative_parsing
 
 让脚本、层叠样式表和图片预加载成功的规则只有一条：
 
-- 如果你使用 `<base>` 元素重载页面的基 URI，将这个元素放置到文档的非脚本部分。不要通过 `document.write()` 或者 `document.createElement() 添加`.
+- 如果你使用 `<base>` 元素重载页面的基 URI，将这个元素放置到文档的非脚本部分。不要通过 `document.write()` 或者 `document.createElement()` 添加.
 
 ## 避免树构建器的输出丢失
 
-当 document.write() 改变了文档树的状态时，树构建器的预构建过程会失败。例如，当所有被`document.write() 插入的内容被解析之后</script>` 标签后的预处理状态不再持有。然而，只有不寻常地使用 `document.write()` 才会产生问题。这些事情需要避免：
+当 `document.write()` 改变了文档树的状态时，树构建器的预构建过程会失败。例如，当所有被`document.write()` 插入的内容被解析之后`</script>` 标签后的预处理状态不再持有。然而，只有不寻常地使用 `document.write()` 才会产生问题。这些事情需要避免：
 
 - 不要写不对称的文档树。`<script>document.write("<div>");</script>` 很糟糕。`<script>document.write("<div></div>");</script>` 则是可行的。
 - 不要写未完成的标识。 `<script>document.write("<div></div");</script>` 很糟糕。

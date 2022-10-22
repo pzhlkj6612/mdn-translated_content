@@ -412,7 +412,7 @@ objRef = Number(objRef);
 objRef = String(objRef);
 ```
 
-`objRef 是物件的參照`。 Number uses the valueOf() method of the object; String uses the toString() method of the object.
+`objRef` 是物件的參照。 Number uses the valueOf() method of the object; String uses the toString() method of the object.
 
 下列範例將 [`日期`](/zh-TW/docs/JavaScript/Reference/Global_Objects/Date) 物件轉換為可讀字串。
 

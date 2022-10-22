@@ -120,11 +120,11 @@ var var2 = 4;
 | 運算子                                                                                                                                   | 描述                                                                                                                                              | 範例                                                                                            |
 | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
 | [取餘數](/zh-TW/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Remainder) (`%`)                                            | 二元運算子。回傳兩個運算元相除後的餘數。                                                                                                          | 12 % 5 回傳 2.                                                                                  |
-| [增加](/zh-TW/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Increment) (`++`)                                             | 一元運算子。 將運算元增加 1。假如使用在運算元之前 (`++x`)，會運算元回傳增加 1 後的值;假如使用在運算元之後。 (`x++`)`，` 會回傳運算元加 1 前的值。 | 假如 `x是` 3，那 `++x` 將把 `x` 設定為 4 並回傳 4，而 `x++ 會回傳` 3 ， 接著才把 `x 設定為` 4。 |
-| [減少](/zh-TW/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Decrement) (`--`)                                             | 一元運算子。 將運算元減少 1。回傳值的情況與 增加運算元 相同。                                                                                     | 假如 `x是` 3，那 `--x` 將把 `x` 設定為 2 並回傳 2，而 `x-- 會回傳` 3 ， 接著才把 `x 設定為` 2。 |
+| [增加](/zh-TW/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Increment) (`++`)                                             | 一元運算子。 將運算元增加 1。假如使用在運算元之前 (`++x`)，會運算元回傳增加 1 後的值;假如使用在運算元之後。 (`x++`)`，` 會回傳運算元加 1 前的值。 | 假如 `x`是 3，那 `++x` 將把 `x` 設定為 4 並回傳 4，而 `x++` 會回傳 3 ， 接著才把 `x` 設定為 4。 |
+| [減少](/zh-TW/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Decrement) (`--`)                                             | 一元運算子。 將運算元減少 1。回傳值的情況與 增加運算元 相同。                                                                                     | 假如 `x`是 3，那 `--x` 將把 `x` 設定為 2 並回傳 2，而 `x--` 會回傳 3 ， 接著才把 `x` 設定為 2。 |
 | [(一元運算子)減號](/zh-TW/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Unary_negation) (`-`)                             | 一元運算子。回傳運算元的負數。                                                                                                                    | 假如 x 是 3，-x 回傳 -3。                                                                       |
-| [(一元運算子)加號](/zh-TW/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Unary_plus) (`+`)                                 | 一元運算子。嘗試將運算元轉換成數字，假如它還不是數字的話。                                                                                        | `+"3"` `回傳 3`。 `+true` 回傳 `1.`                                                             |
-| [指數運算子](/zh-TW/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Exponentiation) (`**`) {{experimental_inline}} | 計算以 a 為底的 `b` 次方， 也就是, `a^b`                                                                                                          | `2 ** 3` `回傳 8`. `10 ** -1` 回傳 `0.1`.                                                       |
+| [(一元運算子)加號](/zh-TW/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Unary_plus) (`+`)                                 | 一元運算子。嘗試將運算元轉換成數字，假如它還不是數字的話。                                                                                        | `+"3"` 回傳 `3`。 `+true` 回傳 `1.`                                                             |
+| [指數運算子](/zh-TW/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Exponentiation) (`**`) {{experimental_inline}} | 計算以 a 為底的 `b` 次方， 也就是, `a^b`                                                                                                          | `2 ** 3` 回傳 `8`. `10 ** -1` 回傳 `0.1`.                                                       |
 
 ### 位元運算子
 
@@ -180,7 +180,7 @@ var var2 = 4;
 | ------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
 | [左移](</zh-TW/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#<<_(Left_shift)>) (`<<`)                         | 這個運算子會將第 一個運算元的每個 bit 向左移動 第二個運算元所指定的 bit 數量。左邊超出的位數會被捨棄，右邊空出的位數以 0 補齊。    | `9<<2` 得到 36，因為 1001 向左移動 2 bits 會得到 100100， 也就是二進位的 36。                                                                |
 | [有號右移](</zh-TW/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#>>_(Sign-propagating_right_shift)>) (`>>`)   | 這個運算子會將第 一個運算元的每個 bit 向右移動 第二個運算元所指定的 bit 數量。右邊超出的位數會被捨棄，左邊空出的位數以最高位補齊。 | `9>>2` 得到 2，因為 1001 向右移動 2 bits 會得到 10，也就是二進位的 2。 相同的， `-9>>2` 會得到 -3，因為最高位用來表示正負號的 bit 被保留了。 |
-| [以 0 填充的右移](</zh-TW/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#>>>_(Zero-fill_right_shift)>) (`>>>`) | 這個運算子會將第 一個運算元的每個 bit 向右移動 第二個運算元所指定的 bit 數量。右邊超出的位數會被捨棄，左邊空出的位數以 0 補齊。    | `19>>>2 得到` 4， 因為 10011 向右移動 2 bits 會得到 100，是二進位的 4。對於非負的數字而言， 以 0 填充的右移 會得到和 有號右移相同的結果。    |
+| [以 0 填充的右移](</zh-TW/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#>>>_(Zero-fill_right_shift)>) (`>>>`) | 這個運算子會將第 一個運算元的每個 bit 向右移動 第二個運算元所指定的 bit 數量。右邊超出的位數會被捨棄，左邊空出的位數以 0 補齊。    | `19>>>2` 得到 4， 因為 10011 向右移動 2 bits 會得到 100，是二進位的 4。對於非負的數字而言， 以 0 填充的右移 會得到和 有號右移相同的結果。    |
 
 ### 邏輯運算子
 
@@ -320,7 +320,7 @@ delete myobj;   // 回傳 true (在隱式宣告時可被刪除)
 
 ##### 刪除陣列元素
 
-在你刪除了陣列中的一個元素後， 陣列的長度並不會改變。 例如， 假如你`刪除 a[3]`， `a[4]` 依然是 `a[4]` 而 `a[3]` 為 未定義。
+在你刪除了陣列中的一個元素後， 陣列的長度並不會改變。 例如， 假如你刪除 `a[3]`， `a[4]` 依然是 `a[4]` 而 `a[3]` 為 未定義。
 
 當使用 `delete` 運算子刪除陣列中的一個元素後， 那個元素便不再存在於陣列中了。 在下面的程式中， `trees[3]` 被用 delete 移除了。然而， `trees[3]` 的記憶體位址仍可用並且會回傳 未定義。
 
@@ -555,7 +555,7 @@ this['特性名稱']
 this.特性名稱
 ```
 
-以下定義一個叫做 `validate` 的函式，比較物件中特性 `value 與傳入的兩變數`:
+以下定義一個叫做 `validate` 的函式，比較物件中特性 `value` 與傳入的兩變數:
 
 ```js
 function validate(obj, lowval, hival){

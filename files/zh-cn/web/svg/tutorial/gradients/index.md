@@ -11,7 +11,7 @@ slug: Web/SVG/Tutorial/Gradients
 
 ## 线性渐变
 
-线性渐变沿着直线改变颜色，要插入一个线性渐变，你需要在 SVG 文件的`defs 元素`内部，创建一个{{SVGElement('linearGradient')}} 节点。
+线性渐变沿着直线改变颜色，要插入一个线性渐变，你需要在 SVG 文件的`defs` 元素内部，创建一个{{SVGElement('linearGradient')}} 节点。
 
 ### 基础示例
 
@@ -58,7 +58,7 @@ slug: Web/SVG/Tutorial/Gradients
  <linearGradient id="Gradient2" x1="0" x2="0" y1="0" y2="1">
 ```
 
-> **备注：** 你也可以在渐变上使用`xlink:href 属性。如果`使用了该属性时，一个渐变的属性和颜色中值（stop）可以被另一个渐变包含引用。在下例中，你就不需要在 Grandient2 中重新创建全部的颜色中值（stop）。
+> **备注：** 你也可以在渐变上使用`xlink:href` 属性。如果使用了该属性时，一个渐变的属性和颜色中值（stop）可以被另一个渐变包含引用。在下例中，你就不需要在 Grandient2 中重新创建全部的颜色中值（stop）。
 >
 > ```html
 > <linearGradient id="Gradient1">

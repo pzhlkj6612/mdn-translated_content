@@ -26,7 +26,7 @@ OscillatorNode.setPeriodicWave(wave);
 
 ## 示例
 
-下面示例说明了 `createPeriodicWave() 方法的简单使用`, 从一个周期波形中重新生成了一个正弦波形。
+下面示例说明了 `createPeriodicWave()` 方法的简单使用, 从一个周期波形中重新生成了一个正弦波形。
 
 ```js
 var real = new Float32Array(2);
@@ -53,7 +53,7 @@ osc.stop(2);
 
 这里，我们用两个值创建一个{{domxref("PeriodicWave")}}。第一个值是直流偏移，是 oscillator 开始的时候的值。这里 0 很合适，因为我们想要在 \[-1.0; 1.0] 这个范围的中间值开始。
 
-第二个和后面的值是正弦和余弦内容。可以把它看做傅里叶变换的结果，使得可以从时间阈值得到频率阈值。这里通过 `createPeriodicWave() 方法，可以指定频率，并且浏览器执行逆傅里叶变换来得到一个时间阈值缓冲。`Here, we only set one component at full volume (1.0) on the fundamental tone, so we get a sine wave.
+第二个和后面的值是正弦和余弦内容。可以把它看做傅里叶变换的结果，使得可以从时间阈值得到频率阈值。这里通过 `createPeriodicWave()` 方法，可以指定频率，并且浏览器执行逆傅里叶变换来得到一个时间阈值缓冲。Here, we only set one component at full volume (1.0) on the fundamental tone, so we get a sine wave.
 
 ## 规范
 

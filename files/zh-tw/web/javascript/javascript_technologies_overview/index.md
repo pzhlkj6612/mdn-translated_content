@@ -31,7 +31,7 @@ JavaScript 的核心語言是由 ECMA TC-39 委員會統一標準，並且命名
 
 ### 未來發展
 
-自 1999 年 ECMA-262 第三版發行後，原先計畫將在 ECMAScript 的第四版（**ECMAScript 4** 或 **ES4**）進行首次的重大改動。然而，2008 年 8 月後，ECMAScript 第四版的提案已被縮減並編列至一個代號為 [ECMAScript Harmony](http://en.wikipedia.org/wiki/ECMAScript#ECMAScript_Harmony) 的計畫，此計畫中定義了代理（Proxy）與關鍵字 `const 等新要素。`ECMAScript `的發展可以參考`[這裡](http://wiki.ecmascript.org/doku.php)`。`
+自 1999 年 ECMA-262 第三版發行後，原先計畫將在 ECMAScript 的第四版（**ECMAScript 4** 或 **ES4**）進行首次的重大改動。然而，2008 年 8 月後，ECMAScript 第四版的提案已被縮減並編列至一個代號為 [ECMAScript Harmony](http://en.wikipedia.org/wiki/ECMAScript#ECMAScript_Harmony) 的計畫，此計畫中定義了代理（Proxy）與關鍵字 `const` 等新要素。ECMAScript 的發展可以參考[這裡](http://wiki.ecmascript.org/doku.php)。
 
 ## DOM（文件物件模型）
 
@@ -53,7 +53,7 @@ W3C 統一規範了文件物件模型的核心部分。它定義了無關語言�
 
 網頁標記語言 [HTML](http://www.whatwg.org/html) 是依據 DOM 來規格化。在 DOM 核心中，定義了虛擬概念的分層，而 HTML 也定義了元素的意義。 HTML DOM 包含了 HTML 元素的 `className` 屬性與諸如 {{ domxref("document.body") }} 的 API。
 
-HTML 的規格書也定義了在文件上的一些限制；例如，他要求所有 `ul` 元素（代表無順序編號的清單）的子元素必須是 `li 元素（代表清單`中的項目）。而未在標準中定義的元素和屬性通常在規格中被禁用。
+HTML 的規格書也定義了在文件上的一些限制；例如，他要求所有 `ul` 元素（代表無順序編號的清單）的子元素必須是 `li` 元素（代表清單中的項目）。而未在標準中定義的元素和屬性通常在規格中被禁用。
 
 ## 其他重要的 API
 

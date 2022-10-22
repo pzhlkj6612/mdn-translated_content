@@ -21,7 +21,7 @@ Cookie 曾一度用于客户端数据的存储，因当时并没有其它合适�
 
 当服务器收到 HTTP 请求时，服务器可以在响应头里面添加一个 {{HTTPHeader("Set-Cookie")}} 选项。浏览器收到响应后通常会保存下 Cookie，之后对该服务器每一次请求中都通过 {{HTTPHeader("Cookie")}} 请求头部将 Cookie 信息发送给服务器。另外，Cookie 的过期时间、域、路径、有效期、适用站点都可以根据需要来指定。
 
-### `Set-Cookie 响应头部`和`Cookie 请求头部`
+### `Set-Cookie` 响应头部和`Cookie` 请求头部
 
 服务器使用 {{HTTPHeader("Set-Cookie")}} 响应头部向用户代理（一般是浏览器）发送 Cookie 信息。一个简单的 Cookie 可能像这样：
 

@@ -39,7 +39,7 @@ new Uint8Array(buffer [, byteOffset [, length]]);
 
 ## `Uint8Array` 原型声明
 
-所有的`Uint8Array 对象继承自` {{jsxref("TypedArray.prototype", "%TypedArray%.prototype")}}.
+所有的`Uint8Array` 对象继承自 {{jsxref("TypedArray.prototype", "%TypedArray%.prototype")}}.
 
 ### 属性
 
@@ -101,7 +101,7 @@ new Uint8Array(buffer [, byteOffset [, length]]);
 - {{jsxref("TypedArray.sort", "Uint8Array.prototype.sort()")}}
   - : 原地排序数组中的元素，并返回该数组，请参见 {{jsxref("Array.prototype.sort()")}}。
 - {{jsxref("TypedArray.subarray", "Uint8Array.prototype.subarray()")}}
-  - : `从给定的元素起始和终止下标返回新的 Uint8Array` 。
+  - : 从给定的元素起始和终止下标返回新的 `Uint8Array` 。
 - {{jsxref("TypedArray.values", "Uint8Array.prototype.values()")}}
   - : 返回新的 `Array Iterator` 对象，含有数组每个下标处的值，请参见 {{jsxref("Array.prototype.values()")}}。
 - {{jsxref("TypedArray.toLocaleString", "Uint8Array.prototype.toLocaleString()")}}
