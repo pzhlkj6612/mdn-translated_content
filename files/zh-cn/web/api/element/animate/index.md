@@ -17,13 +17,13 @@ var animation = element.animate(keyframes, options);
 
 ### 参数
 
-- `keyframes 关键帧`
+- `keyframes` 关键帧
   - : 一个对象，代表关键帧的一个集合
-- `options 可选项`
+- `options` 可选项
 
   - : **代表动画持续时间的整形数字** (以毫秒为单位), 或者一个包含一个或多个时间属性的对象：
 
-    - `id {{optional_inline}}`
+    - `id` {{optional_inline}}
       - : 在 `animate()` 里可作为唯一标识的属性：一个用来引用动画的字符串（ [`DOMString`](/zh-CN/docs/Web/API/DOMString) ）
 
     {{Page("/en-US/docs/Web/API/Web_Animations_API/Animation_timing_properties", "Properties")}}
@@ -42,7 +42,7 @@ var animation = element.animate(keyframes, options);
 
 - `iterationComposite {{optional_inline}} 迭代合成`
   - : 决定动画迭代之间的值如何结合起来，可以被设置为 `accumulate` 或者 `replace` （同上）。默认值为 `replace`.
-- `spacing {{optional_inline}}`
+- `spacing` {{optional_inline}}
 
   - : 决定在动画持续时间内如何分配没有时间偏移的关键帧。默认值为`distribute`.
 

@@ -420,7 +420,7 @@ this.sendQuery = function() {
 }
 ```
 
-我们以`onmessage 方法作为`QueryableWorker 的结尾。如果 worker 有我们所需要的对应的方法，它就会返回相对应的侦听方法的名字以及所需要的参数，我们只需要在侦听列表`listeners 中找到它：`
+我们以`onmessage` 方法作为 QueryableWorker 的结尾。如果 worker 有我们所需要的对应的方法，它就会返回相对应的侦听方法的名字以及所需要的参数，我们只需要在侦听列表`listeners` 中找到它：
 
 ```
 worker.onmessage = function(event) {
@@ -465,7 +465,7 @@ function defaultReply(message) {
 }
 ```
 
-`onmessage 方法也就很简单了：`
+`onmessage` 方法也就很简单了：
 
 ```
 onmessage = function(event) {
@@ -734,7 +734,7 @@ onmessage = function(event) {
  };
 ```
 
-worker 将属性 `onmessage` 设置为一个函数，当 worker 对象调用 `postMessage() 时该函数会接收到发送过来的信息。`(注意，这么使用并不等同于定义一个同名的全局*变量* ，或是定义一个同名的*函数*。`var onmessage` 与 `function onmessage` 将会定义与该名字相同的全局属性，但是它们不会注册能够接收从创建 worker 的网页发送过来的消息的函数。) 这会启用递归，生成自己的新拷贝来处理计算的每一个循环。
+worker 将属性 `onmessage` 设置为一个函数，当 worker 对象调用 `postMessage()` 时该函数会接收到发送过来的信息。(注意，这么使用并不等同于定义一个同名的全局*变量* ，或是定义一个同名的*函数*。`var onmessage` 与 `function onmessage` 将会定义与该名字相同的全局属性，但是它们不会注册能够接收从创建 worker 的网页发送过来的消息的函数。) 这会启用递归，生成自己的新拷贝来处理计算的每一个循环。
 
 #### HTML 代码
 

@@ -17,7 +17,7 @@ slug: Web/API/PushManager/subscribe
 
 ### 参数
 
-- `options {{optional_inline}}`
+- `options` {{optional_inline}}
 
   - : `一个包含可选配置参数的对象。包含以下属性：`
 

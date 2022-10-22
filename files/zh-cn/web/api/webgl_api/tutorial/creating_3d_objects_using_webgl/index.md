@@ -11,7 +11,7 @@ slug: Web/API/WebGL_API/Tutorial/Creating_3D_objects_using_WebGL
 
 ## 定义立方体顶点位置
 
-首先，更新 `initBuffers() 函数代码`创建顶点位置数据缓存。现在的代码看起来和渲染正方形时的代码很相似，只是比之前的代码更长因为现在有了 24 个顶点（每个面使用 4 个顶点）：
+首先，更新 `initBuffers()` 函数代码创建顶点位置数据缓存。现在的代码看起来和渲染正方形时的代码很相似，只是比之前的代码更长因为现在有了 24 个顶点（每个面使用 4 个顶点）：
 
 ```js
 var vertices = [
@@ -109,7 +109,7 @@ gl.bufferData(gl.ELEMENT_ARRAY_BUFFER,
     new Uint16Array(cubeVertexIndices), gl.STATIC_DRAW);
 ```
 
-`代码中的 cubeVertexIndices` 数组声明每一个面都使用两个三角形来渲染。通过立方体顶点数组的索引指定每个三角形的顶点。那么这个立方体就是由 12 个三角形组成的了。
+代码中的 `cubeVertexIndices` 数组声明每一个面都使用两个三角形来渲染。通过立方体顶点数组的索引指定每个三角形的顶点。那么这个立方体就是由 12 个三角形组成的了。
 
 ## 渲染立方体
 

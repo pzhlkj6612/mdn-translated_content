@@ -17,7 +17,7 @@ ServiceWorkerClients.matchAll(options).then(function(clients) {
 
 ### 参数
 
-- `options {{optional_inline}}`
+- `options` {{optional_inline}}
 
   - : 一个 options 对象，允许您为匹配操作设置选项。可用选项包括：
 

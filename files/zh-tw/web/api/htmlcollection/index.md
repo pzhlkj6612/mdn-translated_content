@@ -25,7 +25,7 @@ slug: Web/API/HTMLCollection
 
 ## Usage in JavaScript
 
-`HTMLCollection also` exposes its members directly as properties by both name and index. HTML IDs may contain : and . as valid characters, which would necessitate using bracket notation for property access. Currently HTMLCollections does not recognize purely numeric IDs, which would cause conflict with the array-style access, though HTML5 does permit these.
+`HTMLCollection` also exposes its members directly as properties by both name and index. HTML IDs may contain : and . as valid characters, which would necessitate using bracket notation for property access. Currently HTMLCollections does not recognize purely numeric IDs, which would cause conflict with the array-style access, though HTML5 does permit these.
 
 For example, assuming there is one `<form>` element in the document and its `id` is `"myForm"`:
 

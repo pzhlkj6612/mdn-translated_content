@@ -21,7 +21,7 @@ Void.
 
 - `message`
   - : 发送给 service worker 的消息内容。
-- `transfer {{optional_inline}}`
+- `transfer` {{optional_inline}}
   - : 可转移的对象，例如对端口的引用。
 
 ## 例子

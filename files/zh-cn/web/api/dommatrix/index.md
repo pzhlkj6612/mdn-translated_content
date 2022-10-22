@@ -57,7 +57,7 @@ _此接口从{{domxref("DOMMatrixReadOnly")}}继承方法。_
 - {{domxref("DOMMatrix.skewYSelf()")}}
   - : 返回自身，一个{{domxref("DOMMatrix")}}，它的新内容是原始矩阵被指定因子沿 y 轴倾斜后的结果。
 - {{domxref("DOMMatrix.invertSelf()")}}
-  - : 返回自身，一个{{domxref("DOMMatrix")}}，它的新内容是原始矩阵求逆后的结果。如果不能求逆，所有的组成部分会被设为 NaN，并且`is2D() 返回` `false`。
+  - : 返回自身，一个{{domxref("DOMMatrix")}}，它的新内容是原始矩阵求逆后的结果。如果不能求逆，所有的组成部分会被设为 NaN，并且`is2D()` 返回 `false`。
 - {{domxref("DOMMatrix.setMatrixValue()")}}
   - : 返回自身，一个{{domxref("DOMMatrix")}}，描述了一个矩阵，它的变换（transformation）和被参数指定的 CSS {{domxref("transform")}}函数一样。
 

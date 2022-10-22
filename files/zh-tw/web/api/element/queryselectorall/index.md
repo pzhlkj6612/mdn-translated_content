@@ -95,7 +95,7 @@ let inner = select.querySelectorAll('.outer .inner');
 inner.length; // 1, not 0!
 ```
 
-In this example, when selecting `.outer .inner` in the context of `.select`, .`inner` is still found, even though `.outer` is not a descendant of the baseElement (`.select`).
+In this example, when selecting `.outer .inner` in the context of `.select`, `.inner` is still found, even though `.outer` is not a descendant of the baseElement (`.select`).
 `querySelectorAll()` only verifies that the last element in the selector is within the baseElement.
 
 The [`:scope`](/zh-TW/docs/Web/CSS/:scope) pseudo-class restores the expected behavior, only matching selectors on descendants of the baseElement:

@@ -13,7 +13,7 @@ slug: Web/API/Document/createRange
 range = document.createRange();
 ```
 
-`創造 range` 為 {{domxref("Range")}} 物件.
+創造 `range` 為 {{domxref("Range")}} 物件.
 
 ## 示例
 

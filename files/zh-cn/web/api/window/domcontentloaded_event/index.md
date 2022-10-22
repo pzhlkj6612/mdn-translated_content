@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded',function(){
 
 ### 兼容不支持该事件的浏览器
 
-在 IE8 中，可以使用`readystatechange`事件来检测 DOM 文档是否加载完毕。在更早的 IE 版本中，可以通过每隔一段时间执行一次`document.documentElement.doScroll("left") 来检测这一状态，`因为这条代码在 DOM 加载完毕之前执行时会抛出错误 (throw an error)。
+在 IE8 中，可以使用`readystatechange`事件来检测 DOM 文档是否加载完毕。在更早的 IE 版本中，可以通过每隔一段时间执行一次`document.documentElement.doScroll("left")` 来检测这一状态，因为这条代码在 DOM 加载完毕之前执行时会抛出错误 (throw an error)。
 
 诸如 jQuery 这样的通用 JS 库，会提供跨浏览器的方法来检测 DOM 是否加载完成。也有其他专门实现该功能的脚本：[contentloaded.js](https://github.com/dperini/ContentLoaded/blob/master/src/contentloaded.js) (只能添一个时间监听函数) 以及[jquery.documentReady.js](https://github.com/addyosmani/jquery.parts/blob/master/jquery.documentReady.js) (并不依赖 jQuery，虽然名字中有 jquery).
 

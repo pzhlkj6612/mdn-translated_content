@@ -26,7 +26,7 @@ ServiceWorkerContainer.register(scriptURL, options)
 
 - `scriptURL`
   - : service worker 脚本的 URL.
-- `options` `{{optional_inline}}`
+- `options` {{optional_inline}}
 
   - : 注册时提供选项的配置对象。目前可用的选项包括：
 

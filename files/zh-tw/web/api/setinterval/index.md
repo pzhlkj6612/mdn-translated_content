@@ -489,9 +489,9 @@ Returns a JavaScript [`Object`](/zh-TW/docs/Web/JavaScript/Reference/Global_Obje
   - : The [`this`](/zh-TW/docs/Web/JavaScript/Reference/Operators/this) object on which the _callback_ function is called. It can be an [`object`](/zh-TW/docs/Web/JavaScript/Reference/Global_Objects/Object) or `null`.
 - `callback`
   - : The function that is repeatedly invoked . **It is called with three arguments**: _index_ (the iterative index of each invocation), _length_ (the number of total invocations assigned to the _daemon_ - finite or [`Infinity`](/zh-TW/docs/JavaScript/Reference/Global_Objects/Infinity)) and _backwards_ (a boolean expressing whether the _index_ is increasing or decreasing). It is something like _callback_.call(_thisObject_, _index_, _length_, _backwards_). **If the callback function returns a `false` value the _daemon_ is paused**.
-- `rate (optional)`
+- `rate` {{optional_inline}}
   - : The time lapse (in number of milliseconds) between each invocation. The default value is 100.
-- `length (optional)`
+- `length` {{optional_inline}}
   - : The total number of invocations. It can be a positive integer or [`Infinity`](/zh-TW/docs/Web/JavaScript/Reference/Global_Objects/Infinity). The default value is `Infinity`.
 
 #### `MiniDaemon` instances properties

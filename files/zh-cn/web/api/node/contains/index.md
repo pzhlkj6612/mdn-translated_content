@@ -18,7 +18,7 @@ node.contains( otherNode )
 - `node` 是否包含 otherNode 节点。
 - `otherNode` 是否是 node 的后代节点。
 
-如果 `otherNode` 是 `node 的后代节点或是` `node` 节点本身。则返回`true` , 否则返回 `false`.
+如果 `otherNode` 是 `node` 的后代节点或是 `node` 节点本身。则返回`true` , 否则返回 `false`.
 
 ## 例子
 

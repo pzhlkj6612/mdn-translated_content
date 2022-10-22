@@ -72,7 +72,7 @@ _滚轮事件实现了以下事件的方法： {{domxref("WheelEvent")}}, {{domx
 
 ### 跨浏览器监听滚动事件
 
-`以下脚本创建了一个全局的 addWheelListener` 方法，它可以兼容各浏览器监听滚动事件，并且阻止默认行为。
+以下脚本创建了一个全局的 `addWheelListener` 方法，它可以兼容各浏览器监听滚动事件，并且阻止默认行为。
 
 ```js
 // creates a global "addWheelListener" method
@@ -150,9 +150,9 @@ _滚轮事件实现了以下事件的方法： {{domxref("WheelEvent")}}, {{domx
 以下为事件顺序：
 
 1. 滚轮事件处于默认事件组 (web 应用和浏览器插件都可以处理这个组的事件)
-2. 当连续滚轮事件 deltaY 的值累计大于 1 或小于－1 时，`竖直方向的 DOMMouseScroll` 事件既属于默认事件组也属于系统事件组
+2. 当连续滚轮事件 deltaY 的值累计大于 1 或小于－1 时，竖直方向的 `DOMMouseScroll` 事件既属于默认事件组也属于系统事件组
 3. 当最近的滚轮事件的 deltaY 值非零时，两个事件组都包含竖直方向的 MozMousePixelScroll 事件
-4. 当连续滚轮事件 deltaX 的值累计大于 1 或小于－1 时，两个事件组都包含水平`方向的 DOMMouseScroll` 事件
+4. 当连续滚轮事件 deltaX 的值累计大于 1 或小于－1 时，两个事件组都包含水平方向的 `DOMMouseScroll` 事件
 5. 当最近的滚轮事件的 deltaX 值非零时，两个事件组都包含水平方向的 MozMousePixelScroll 事件
 6. 一个滚轮事件处于系统事件组 (只有浏览器插件可以处理这个组的事件)
 

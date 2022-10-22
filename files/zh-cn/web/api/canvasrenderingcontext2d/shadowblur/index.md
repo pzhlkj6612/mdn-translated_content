@@ -20,7 +20,7 @@ ctx.shadowBlur = level;
 
 ### 使用 `shadowBlur` 属性
 
-这是一段简单的代码片段，使用 `shadowblur 属性设置模糊阴影。` 注意：只有设置 shadowColor 属性值为不透明，阴影才会被绘制。
+这是一段简单的代码片段，使用 `shadowblur` 属性设置模糊阴影。 注意：只有设置 shadowColor 属性值为不透明，阴影才会被绘制。
 
 #### HTML
 

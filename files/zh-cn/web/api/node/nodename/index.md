@@ -14,7 +14,7 @@ var str = node.nodeName;
 ```
 
 - `str` 是一个存储了当前节点的节点名称的字符串。
-- `nodeName 是一个只读属性`.
+- `nodeName` 是一个只读属性.
 
 ## 附注
 

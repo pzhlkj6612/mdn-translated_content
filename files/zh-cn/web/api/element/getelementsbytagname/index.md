@@ -7,7 +7,7 @@ slug: Web/API/Element/getElementsByTagName
 
 **`Element.getElementsByTagName()`** 方法返回一个动态的包含所有指定标签名的元素的 HTML 集合{{domxref("HTMLCollection")}}。指定的元素的子树会被搜索，不包括元素自己。返回的列表是动态的，这意味着它会随着 DOM 树的变化自动更新自身。所以，使用相同元素和相同参数时，没有必要多次的调用`Element.getElementsByTagName()` .
 
-如果是 HTML 文档中的某个元素调用了`getElementsByTagName 函数，` 运行前会将参数转为小写字母形式。故不建议在驼峰式命名的 SVG 元素中使用。 {{ domxref("Element.getElementsByTagNameNS()") }} 适用于那种情况。
+如果是 HTML 文档中的某个元素调用了`getElementsByTagName` 函数， 运行前会将参数转为小写字母形式。故不建议在驼峰式命名的 SVG 元素中使用。 {{ domxref("Element.getElementsByTagNameNS()") }} 适用于那种情况。
 
 `Element.getElementsByTagName` 和 {{domxref("Document.getElementsByTagName()")}}类似，除了它的搜索被限制为指定元素的后代。
 

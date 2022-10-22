@@ -17,7 +17,7 @@ stylesheet.deleteRule(index)
 
 ### 参数
 
-- `index 是一个数字，用来指定样式规则的位置`.
+- `index` 是一个数字，用来指定样式规则的位置.
 
 ### 示例
 

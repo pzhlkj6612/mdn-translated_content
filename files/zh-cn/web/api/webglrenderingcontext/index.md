@@ -37,7 +37,7 @@ var gl = canvas.getContext('webgl');
 - {{domxref("WebGLRenderingContext.drawingBufferHeight")}}
   - : 只读属性，当前绘图缓冲区的高度，等于和该上下文相联系的 canvas 元素的高度。
 - {{domxref("WebGLRenderingContext.getContextAttributes()")}}
-  - : 返回 `WebGLContextAttributes 对象，该对象包含真实的上下文参数。如果上下文丢失，将会返回` {{jsxref("null")}}。
+  - : 返回 `WebGLContextAttributes` 对象，该对象包含真实的上下文参数。如果上下文丢失，将会返回 {{jsxref("null")}}。
 - {{domxref("WebGLRenderingContext.isContextLost()")}}
   - : 如果上下文丢失，返回 true；否则，返回 false。
 
@@ -216,7 +216,7 @@ var gl = canvas.getContext('webgl');
 - {{domxref("WebGLRenderingContext.detachShader()")}}
   - : 分离 `WebGLShader`。
 - {{domxref("WebGLRenderingContext.getAttachedShaders()")}}
-  - : 返回附加在 `WebGLProgram 上的` `WebGLShader` 对象的列表。
+  - : 返回附加在 `WebGLProgram` 上的 `WebGLShader` 对象的列表。
 - {{domxref("WebGLRenderingContext.getProgramParameter()")}}
   - : 返回程序对象的信息。
 - {{domxref("WebGLRenderingContext.getProgramInfoLog()")}}

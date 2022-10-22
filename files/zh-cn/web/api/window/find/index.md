@@ -35,7 +35,7 @@ window.find(aString, aCaseSensitive, aBackwards, aWrapAround,
 
 ### 返回值
 
-`如果搜索到指定的字符串，则返回 true，否则`返回 false.
+如果搜索到指定的字符串，则返回 `true`，否则返回 `false`.
 
 ## 规范
 

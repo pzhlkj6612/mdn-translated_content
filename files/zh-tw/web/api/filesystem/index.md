@@ -13,7 +13,7 @@ slug: Web/API/FileSystem
 
 存取 `FileSystem` 物件的兩種方法:
 
-1. 你可以直接要求一個使用`window.requestFileSystem()，`只用在你的網頁應用程式的沙盒類型 `FileSystem 物件。如果要求成功，將會執行`callback handler 去接收描述檔案系統的`FileSystem物件參數。`
+1. 你可以直接要求一個使用`window.requestFileSystem()，`只用在你的網頁應用程式的沙盒類型 `FileSystem` 物件。如果要求成功，將會執行 callback handler 去接收描述檔案系統的`FileSystem`物件參數。
 2. 你可以從檔案系統接口物件取得，透過他的{{domxref("FileSystemEntry.filesystem", "filesystem")}}特性
 
 ## 屬性

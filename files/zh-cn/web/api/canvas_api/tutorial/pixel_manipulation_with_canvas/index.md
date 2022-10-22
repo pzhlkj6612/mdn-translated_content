@@ -20,7 +20,7 @@ slug: Web/API/Canvas_API/Tutorial/Pixel_manipulation_with_canvas
 
 data 属性返回一个 {{jsxref("Uint8ClampedArray")}}，它可以被使用作为查看初始像素数据。每个像素用 4 个 1bytes 值 (按照红，绿，蓝和透明值的顺序; 这就是"RGBA"格式) 来代表。每个颜色值部份用 0 至 255 来代表。每个部份被分配到一个在数组内连续的索引，左上角像素的红色部份在数组的索引 0 位置。像素从左到右被处理，然后往下，遍历整个数组。
 
-{{jsxref("Uint8ClampedArray")}} 包含高度 × 宽度 × 4 bytes 数据，索引值从 0 到 (`高度`× 宽度 ×4)-1
+{{jsxref("Uint8ClampedArray")}} 包含 `height` × `width` × 4 bytes 数据，索引值从 0 到 (`height`×`width`×4)-1
 
 例如，要读取图片中位于第 50 行，第 200 列的像素的蓝色部份，你会写以下代码：
 
@@ -42,15 +42,15 @@ var numBytes = imageData.data.length;
 
 ## 创建一个 ImageData 对象
 
-去创建一个新的，空白的 ImageData`对象`，你应该会使用{{domxref("CanvasRenderingContext2D.createImageData", "createImageData()")}} 方法。有 2 个版本的 createImageData() 方法。
+去创建一个新的，空白的 `ImageData` 对象，你应该会使用{{domxref("CanvasRenderingContext2D.createImageData", "createImageData()")}} 方法。有 2 个版本的 createImageData() 方法。
 
 ```js
 var myImageData = ctx.createImageData(width, height);
 ```
 
-上面代码创建了一个新的具体特定尺寸的 ImageData`对象`。所有像素被预设为透明黑。
+上面代码创建了一个新的具体特定尺寸的 `ImageData` 对象。所有像素被预设为透明黑。
 
-你也可以创建一个被 anotherImageData`对象`指定的相同像素的 ImageData`对象`。这个新的`对象`像素全部被预设为透明黑。这个并非复制了图片数据。
+你也可以创建一个被 `anotherImageData` 对象指定的相同大小的 `ImageData` 对象。这个新对象的像素全部被预设为透明黑。这并未复制图片的数据。
 
 ```js
 var myImageData = ctx.createImageData(anotherImageData);

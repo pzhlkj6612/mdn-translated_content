@@ -35,7 +35,7 @@ function handleTextureLoaded(image, texture) {
 
 函数 `initTextures()` 首先调用 GL {{domxref("WebGLRenderingContext.createTexture()", "createTexture()")}} 函数来创建一个 GL 纹理对象 cubeTexture。为了把图片文件加载到纹理，代码首先创建了一个 `Image` 对象然后把需要当作纹理使用的图形文件加载了进来。当图片加载完成后回调函数 `handleTextureLoaded()` 就会执行。
 
-接下来为了真正地形成纹理，我们通过把新创建的纹理对象绑定到 `gl.TEXTURE_2D 来让它成为当前操作纹理。然后通过调用` {{domxref("WebGLRenderingContext.texImage2D()", "texImage2D()")}} 把已经加载的图片图形数据写到纹理。
+接下来为了真正地形成纹理，我们通过把新创建的纹理对象绑定到 `gl.TEXTURE_2D` 来让它成为当前操作纹理。然后通过调用 {{domxref("WebGLRenderingContext.texImage2D()", "texImage2D()")}} 把已经加载的图片图形数据写到纹理。
 
 > **备注：** 在多数情况下，纹理的宽和高都必须是 2 的幂（如：1，2，4，8，16 等等）。如果有什么特殊情况请参考下面的“[非 2 的幂纹理](/zh-CN/docs/Web/API/WebGL_API/Tutorial/Using_textures_in_WebGL#非2的幂纹理)”小节。
 
@@ -111,7 +111,7 @@ gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(textureCoordinates),
 
 首先，代码创建了一个 GL 缓存区，用来保存每个面的纹理坐标信息，然后把这个缓存区绑定到 GL 以方便我们写入数据。
 
-`数组变量 textureCoordinates` 中定义好了与每个面上的每个顶点一一对应的纹理坐标。请注意，纹理坐标的取值范围只能从 0.0 到 1.0，所以不论纹理贴图的实际大小是多少，为了实现纹理映射，我们要使用的纹理坐标只能规范化到 0.0 到 1.0 的范围内。
+数组变量 `textureCoordinates` 中定义好了与每个面上的每个顶点一一对应的纹理坐标。请注意，纹理坐标的取值范围只能从 0.0 到 1.0，所以不论纹理贴图的实际大小是多少，为了实现纹理映射，我们要使用的纹理坐标只能规范化到 0.0 到 1.0 的范围内。
 
 纹理坐标信息给定了之后，把这个数组里的数据都写到 GL 缓存区，这样 GL 就能使用这个坐标数据了。
 

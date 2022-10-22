@@ -85,9 +85,9 @@ myWorker.onmessage = function(e) {
 
 拿到存在事件 data 中的計算值後，我們接著將值以 `textContent` 顯示出來。
 
-> **備註：** `建構 Worker` 的 URI 必須遵從[same-origin policy](/zh-TW/docs/Web/Security/Same-origin_policy)。目前各家瀏覽器在這方面存有歧異，Gecko 10.0 {{geckoRelease("10.0")}} 以後允許 data URI 而 Internet Explorer 10 不允許 Blob URI。
+> **備註：** 建構 `Worker` 的 URI 必須遵從[same-origin policy](/zh-TW/docs/Web/Security/Same-origin_policy)。目前各家瀏覽器在這方面存有歧異，Gecko 10.0 {{geckoRelease("10.0")}} 以後允許 data URI 而 Internet Explorer 10 不允許 Blob URI。
 
-> **備註：** 在主執行緒中存取 `onmessage` `與 postMessage` 需要主動掛在 worker 物件上，在 worker 執行緒則不用，這是因為 worker 執行緒的全域物件便是 worker 物件。
+> **備註：** 在主執行緒中存取 `onmessage` 與 `postMessage` 需要主動掛在 worker 物件上，在 worker 執行緒則不用，這是因為 worker 執行緒的全域物件便是 worker 物件。
 
 > **備註：** 和 worker 傳送的資料並非共享而是複製一份後傳送，詳細請參照 [和 workers 傳遞資料：更多細節](#和_workers_傳遞資料：更多細節)。
 
@@ -587,7 +587,7 @@ onmessage = function(event) {
  };
 ```
 
-worker 程式碼中註冊了一個 `onmessage` 事件處理器用來接收另一端 `postMessage 過來的訊息` (請注意這並非定義一個全域變數或函數，`var onmessage` 或 `function onmessage` 會定義全域變數，但不會註冊事件處理器)，然後開始進行遞迴運算。
+worker 程式碼中註冊了一個 `onmessage` 事件處理器用來接收另一端 `postMessage` 過來的訊息 (請注意這並非定義一個全域變數或函數，`var onmessage` 或 `function onmessage` 會定義全域變數，但不會註冊事件處理器)，然後開始進行遞迴運算。
 
 #### HTML
 

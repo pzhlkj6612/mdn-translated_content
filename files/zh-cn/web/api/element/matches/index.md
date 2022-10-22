@@ -53,11 +53,11 @@ let result = element.matches(selectorString);
 ## 异常
 
 - `SYNTAX_ERR`
-  - : 如果给定的 css 选择器无效。在 Gecko 2.0 之前，该方法会返回`false,2.0 之后`,会直接抛出异常。
+  - : 如果给定的 css 选择器无效。在 Gecko 2.0 之前，该方法会返回`false,2.0` 之后,会直接抛出异常。
 
 ## 替代方案 (Polyfill)
 
-对于不支持 `Element.matches()` 或`Element.matchesSelector()，但支持`document.querySelectorAll() 方法的`浏览器，存在以下替代方案`
+对于不支持 `Element.matches()` 或`Element.matchesSelector()`，但支持`document.querySelectorAll()` 方法的浏览器，存在以下替代方案
 
 ```js
 if (!Element.prototype.matches) {

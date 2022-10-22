@@ -23,7 +23,7 @@ var composed = Event.composedPath();
 
 ## 示例
 
-在我们的 composed-composed-path 例子中，我们定义了两个自定义元素，`<open-shadow>` 和 `<closed-shadow>，`两 个全都调用了它们文本属性的内容然后作为`<p>` 元素的文本内容将它们插入到元素的影子 DOM 中。两者之间唯一的区别是它们影子的根结点是在它们的模式被分别设置成`open` 和 `closed` 的情况下连接的。
+在我们的 composed-composed-path 例子中，我们定义了两个自定义元素，`<open-shadow>` 和 `<closed-shadow>`，两个全都调用了它们文本属性的内容然后作为`<p>` 元素的文本内容将它们插入到元素的影子 DOM 中。两者之间唯一的区别是它们影子的根结点是在它们的模式被分别设置成`open` 和 `closed` 的情况下连接的。
 
 第一个定义就像这样，比如：
 
