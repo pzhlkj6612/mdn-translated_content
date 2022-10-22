@@ -88,7 +88,7 @@ Cache-Control: must-revalidate
 
 ### `Pragma`檔頭欄位
 
-{{HTTPHeader("Pragma")}} 是 HTTP/1.0 的檔頭欄位，此檔頭欄位沒有特別指是 HTTP 回覆怎麼處理，所以用此來取代 HTTP/1.1 `Cache-Control`通用檔頭欄位並不是很穩定。假如`Cache-Control` 檔頭欄位在傳送請求訊息時被省略掉了，此檔頭欄位運作的結果跟 `Cache-Control: no-cache`一樣`。此Pragma`欄位只能跟 HTTP/1.0 的請求者使用。
+{{HTTPHeader("Pragma")}} 是 HTTP/1.0 的檔頭欄位，此檔頭欄位沒有特別指是 HTTP 回覆怎麼處理，所以用此來取代 HTTP/1.1 `Cache-Control`通用檔頭欄位並不是很穩定。假如`Cache-Control` 檔頭欄位在傳送請求訊息時被省略掉了，此檔頭欄位運作的結果跟 `Cache-Control: no-cache`一樣。此`Pragma`欄位只能跟 HTTP/1.0 的請求者使用。
 
 ## Freshness
 

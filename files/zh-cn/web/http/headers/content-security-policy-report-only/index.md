@@ -93,7 +93,7 @@ Content-Security-Policy-Report-Only: default-src 'none'; style-src cdn.example.c
 </html>
 ```
 
-你可以发现违规的地方吗？只允许加载来自`cdn.example.com 这个域名的`样式表，然而这个网站试着加载来自自己域名的样式表 (`http://example.com`)。当文档被访问时，可以执行 CSP(内容安全策略) 的浏览器将会用 POST 请求发送以下违规报告到`http://example.com/_/csp-reports`:
+你可以发现违规的地方吗？只允许加载来自`cdn.example.com` 这个域名的样式表，然而这个网站试着加载来自自己域名的样式表 (`http://example.com`)。当文档被访问时，可以执行 CSP(内容安全策略) 的浏览器将会用 POST 请求发送以下违规报告到`http://example.com/_/csp-reports`:
 
 ```js
 {
@@ -108,7 +108,7 @@ Content-Security-Policy-Report-Only: default-src 'none'; style-src cdn.example.c
 }
 ```
 
-正如你所看到的，报告在`blocked-uri 上记录了`违反资源的完整路径。这并非总是如此。例如，当 `signup.html` 试图从 `http://anothercdn.example.com/stylesheet.css 加载`CSS，浏览器不会包含完整路径，只包含来源。这样做是为了防止泄漏跨域资源的敏感信息。
+正如你所看到的，报告在`blocked-uri` 上记录了违反资源的完整路径。这并非总是如此。例如，当 `signup.html` 试图从 `http://anothercdn.example.com/stylesheet.css` 加载CSS，浏览器不会包含完整路径，只包含来源。这样做是为了防止泄漏跨域资源的敏感信息。
 
 ## 规范
 

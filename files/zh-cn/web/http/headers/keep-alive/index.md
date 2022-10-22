@@ -29,7 +29,7 @@ Keep-Alive: parameters
 
 ## 示例
 
-`含有 Keep-Alive` 首部的响应示例：
+含有 `Keep-Alive` 首部的响应示例：
 
 ```plain
 HTTP/1.1 200 OK

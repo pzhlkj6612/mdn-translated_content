@@ -61,7 +61,7 @@ Content-Security-Policy: frame-ancestors <source> <source>;
     - `'blob:'` 允许 [`blob:` URIs](/zh-CN/docs/Web/API/Blob) 作为内容源。
     - `'filesystem:'` 允许 [`filesystem:` URIs](/zh-CN/docs/Web/API/FileSystem) 作为内容源。
 - `'self'`
-  - : 指向一个该受保护文档所在的源，包含同样的 URL schema 和端口号。必须用单引号设置。有些浏览器会从源指令中排`除 blob`和`filesystem`。需要允许这些内容类型的站点可以通过 Data 属性指定它们。
+  - : 指向一个该受保护文档所在的源，包含同样的 URL schema 和端口号。必须用单引号设置。有些浏览器会从源指令中排除 `blob`和`filesystem`。需要允许这些内容类型的站点可以通过 Data 属性指定它们。
 - `'none'`
   - : 指向一个空集，意味着没有 URL 会被匹配。也需要单引号包裹设置。
 

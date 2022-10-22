@@ -54,7 +54,7 @@ Link: </images/big.jpeg>; rel=prefetch
 
 ### 浏览器的空闲时间是如何确定的？
 
-在目前 (Moilla 1.2)，空闲时间的确定是通过 `nsIWebProgressListener` API 实现的。我们在顶层 `nsIWebProgress 对象` ("@[mozilla.org/docloaderservice;1](http://mozilla.org/docloaderservice;1)") 上附加了一个监听器。通过监听器，我们能够收到文档开始和停止的通知，从而将最后一个文档停止到下一个文档开始之间的间隔作为空闲时间的近似值。最后一个文档停止的通知大致会在顶层文档的 onLoad 方法即将被触发时发出。此时即是开始预取的时间点。如果一个子文档包含了预取提示，这些预取操作将会等到最顶层文档和其子文档完成加载后才会开始进行。
+在目前 (Moilla 1.2)，空闲时间的确定是通过 `nsIWebProgressListener` API 实现的。我们在顶层 `nsIWebProgress` 对象 ("@[mozilla.org/docloaderservice;1](http://mozilla.org/docloaderservice;1)") 上附加了一个监听器。通过监听器，我们能够收到文档开始和停止的通知，从而将最后一个文档停止到下一个文档开始之间的间隔作为空闲时间的近似值。最后一个文档停止的通知大致会在顶层文档的 onLoad 方法即将被触发时发出。此时即是开始预取的时间点。如果一个子文档包含了预取提示，这些预取操作将会等到最顶层文档和其子文档完成加载后才会开始进行。
 
 ### 资源正在被预载时点击了某个链接会发生什么？
 

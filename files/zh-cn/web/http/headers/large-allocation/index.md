@@ -38,9 +38,9 @@ Large-Allocation: 500
 
 如果使用不当， `Large-Allocation` 会抛出警告或者错误信息，你可以在 [web console](/zh-CN/docs/Tools/Web_Console) 查看它们。
 
-- 由于`Large-Allocation 报头存在，这个页面会在一个新的进程处理和加载`
+- 由于`Large-Allocation` 报头存在，这个页面会在一个新的进程处理和加载
   - : This message means that the browser saw the `Large-Allocation` header, and was able to reload the page into a new process which should have more available contiguous memory.
-- `Large-Allocation` 报头由于非`non-GET 请求而直接忽略`
+- `Large-Allocation` 报头由于非`non-GET` 请求而直接忽略
   - : 当一个 {{HTTPMethod("POST")}} 请求用语加载文档，that load cannot currently be redirected into a new process. This error is displayed when loading a document with a `Large-Allocation` header with a non-GET HTTP method. This could be caused due to the document being loaded by a form submission, for example.
 - A `Large-Allocation` header was ignored due to the presence of windows which have a reference to this browsing context through the frame hierarchy or {{domxref("window.opener")}}.
   - : This error means that the document was not loaded at the top level of an user-opened or noopener-opened tab or window. It can occur in these situations:

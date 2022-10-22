@@ -46,7 +46,7 @@ application/octet-stream
 
 | 类型          | 描述                                                                    | 典型示例                                                                                                                                        |
 | ------------- | ----------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-| `text`        | 表明文件是普通文本，理论上是人类可读                                    | `text/plain`, `text/html`, `text/css, text/javascript`                                                                                          |
+| `text`        | 表明文件是普通文本，理论上是人类可读                                    | `text/plain`, `text/html`, `text/css`, `text/javascript`                                                                                          |
 | `image`       | 表明是某种图像。不包括视频，但是动态图（比如动态 gif）也使用 image 类型 | `image/gif`, `image/png`, `image/jpeg`, `image/bmp`, `image/webp`, `image/x-icon`, `image/vnd.microsoft.icon`                                   |
 | `audio`       | 表明是某种音频文件                                                      | `audio/midi`, `audio/mpeg, audio/webm, audio/ogg, audio/wav`                                                                                    |
 | `video`       | 表明是某种视频文件                                                      | `video/webm`, `video/ogg`                                                                                                                       |
