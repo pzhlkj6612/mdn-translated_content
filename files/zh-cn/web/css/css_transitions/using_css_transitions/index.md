@@ -88,7 +88,7 @@ div {
 
 ## 检测过渡是否完成
 
-当过渡完成时触发一个事件，在符合标准的浏览器下，这个事件是 `transitionend`, 在 WebKit 下是 `webkitTransitionEnd`. 详情查看页面底部的兼容性表格。 `transitionend 事件提供两个属性`:
+当过渡完成时触发一个事件，在符合标准的浏览器下，这个事件是 `transitionend`, 在 WebKit 下是 `webkitTransitionEnd`. 详情查看页面底部的兼容性表格。 `transitionend` 事件提供两个属性:
 
 - `propertyName`
   - : 字符串，指示已完成过渡的属性。

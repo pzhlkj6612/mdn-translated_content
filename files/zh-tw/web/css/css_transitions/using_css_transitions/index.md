@@ -9,7 +9,7 @@ slug: Web/CSS/CSS_Transitions/Using_CSS_transitions
 
 CSS transitions 是 CSS3 specification 草案的一部分，他可以用來調整 CSS animation 變動的速度。舉例來說，倘若你設計了一個 element 會由白轉紅，你可以透過 CSS transitions 來控制轉變的時間及變化曲線。
 
-> **備註：** CSS transitions specification 目前仍舊以草案形式存在，所以當你要在 Gecko 的系統中使用時，記得加上 "-moz-" 的前綴。此外，為了更好的相容，你還得加上 "-webkit-" 前綴 (給基於 Webkit 技術的瀏覽器)以及 "-o-" (Opera 使用)。舉例來說，你可能會寫出包含有 `-moz-transition`, `-webkit-transition 及` `-o-transition 的程式。`
+> **備註：** CSS transitions specification 目前仍舊以草案形式存在，所以當你要在 Gecko 的系統中使用時，記得加上 "-moz-" 的前綴。此外，為了更好的相容，你還得加上 "-webkit-" 前綴 (給基於 Webkit 技術的瀏覽器)以及 "-o-" (Opera 使用)。舉例來說，你可能會寫出包含有 `-moz-transition`, `-webkit-transition` 及 `-o-transition` 的程式。
 
 ## 可供調整的 CSS property 清單
 

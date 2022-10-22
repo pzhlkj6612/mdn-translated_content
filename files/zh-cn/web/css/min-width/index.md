@@ -9,7 +9,7 @@ slug: Web/CSS/min-width
 
 `min-width` 属性为给定元素设置最小宽度。它可以阻止 {{ Cssxref("width") }} 属性的应用值小于 `min-width` 的值。
 
-`min-width 的值会同时覆盖` {{ Cssxref("max-width") }} 和 {{ Cssxref("width") }}。
+`min-width` 的值会同时覆盖 {{ Cssxref("max-width") }} 和 {{ Cssxref("width") }}。
 
 ## 语法
 

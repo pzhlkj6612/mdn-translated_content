@@ -166,7 +166,7 @@ her in a languid, sleepy voice.</p>
 
 ### 播放完畢後反向播放
 
-由上個例子我們知道該如何永久性播放動畫。但這個顯示結果有些突兀，是以我們試著讓他播放完畢後倒帶執行。這需要用到 {{ cssxref("animation-direction") }}，賦予 `alternate 的值：`
+由上個例子我們知道該如何永久性播放動畫。但這個顯示結果有些突兀，是以我們試著讓他播放完畢後倒帶執行。這需要用到 {{ cssxref("animation-direction") }}，賦予 `alternate` 的值：
 
 ```css
 p {
