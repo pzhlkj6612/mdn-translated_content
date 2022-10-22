@@ -37,7 +37,7 @@ rotate: 1 1 1 90deg;
 - Valeur angulaire
   - : Une valeur {{cssxref("&lt;angle&gt;")}} qui indique l'angle à utiliser, autour de l'axe Z, pour tourner les éléments. Cela est équivalent à la fonction `rotate()`.
 - Le nom de l'axe et l'angle associé
-  - : Le nom de l'axe par rapport auquel on souhaite effectuer la rotation (`"x"`, "`y`" ou "`z"`), puis une valeur {{cssxref("&lt;angle&gt;")}} qui indique l'angle à appliquer pour la rotation. Cela est équivalent à l'une des fonctions `rotateX()`/`rotateY()`/`rotateZ()`.
+  - : Le nom de l'axe par rapport auquel on souhaite effectuer la rotation (`"x"`, `"y"` or `"z"`), puis une valeur {{cssxref("&lt;angle&gt;")}} qui indique l'angle à appliquer pour la rotation. Cela est équivalent à l'une des fonctions `rotateX()`/`rotateY()`/`rotateZ()`.
 - Un vecteur et l'angle associé
   - : Trois nombres (valeurs {{cssxref("&lt;number&gt;")}}) qui représentent une vecteur centré sur l'origine qui définit la ligne autour de laquelle on souhaite faire tourner l'élément puis une valeur {{cssxref("&lt;angle&gt;")}} qui indique l'angle de rotation. Cela est équivalent à la fonction `rotate3d()`.
 - `none`

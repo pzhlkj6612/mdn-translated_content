@@ -32,7 +32,7 @@ rotate: 1 1 1 90deg;
 - 角度值
   - : An {{cssxref("&lt;angle&gt;")}} specifying the angle to rotate the affected element through, around the Z axis. Equivalent to a `rotate()` (2D rotation) function.
 - x, y 或者 z 轴名称加上角度值
-  - : The name of the axis you want to rotate the affected element around (`"x"`, "`y`", or "`z"`), plus an {{cssxref("&lt;angle&gt;")}} specifying the angle to rotate the element through. Equivalent to a `rotateX()`/`rotateY()`/`rotateZ()` (3D rotation) function.
+  - : The name of the axis you want to rotate the affected element around (`"x"`, `"y"` or `"z"`), plus an {{cssxref("&lt;angle&gt;")}} specifying the angle to rotate the element through. Equivalent to a `rotateX()`/`rotateY()`/`rotateZ()` (3D rotation) function.
 - 向量加上角度值
   - : Three {{cssxref("&lt;number&gt;")}}s representing an origin-centered vector that defines a line around which you want to rotate the element, plus an {{cssxref("&lt;angle&gt;")}} specifying the angle to rotate the element through. Equivalent to a `rotate3d()` (3D rotation) function.
 - `none`
