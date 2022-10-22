@@ -18,7 +18,7 @@ _**on-event**_ 處理器為一群由 DOM 元素提供的屬性（{{Glossary("pro
 
 Note that each object can have **only one** _on-event_ handler for a given event (though that handler could call multiple sub-handlers). This is why {{domxref("EventTarget.addEventListener", "addEventListener()")}} is often the better way to get notified of events, especially when wishing to apply various event handlers independently from each other, even for the same event and/or to the same element.
 
-Also note that _on-event_ handlers are called automatically, not at the programmer's will (although you can, like `mybutton.onclick(myevent); )` since they serve more as placeholders to which a real handler function can be **assigned**.
+Also note that _on-event_ handlers are called automatically, not at the programmer's will (although you can, like `mybutton.onclick(myevent);` ) since they serve more as placeholders to which a real handler function can be **assigned**.
 
 ### 非元素物件
 
