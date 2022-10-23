@@ -1,11 +1,11 @@
 ---
-title: XML_介绍
+title: XML 介绍
 slug: Web/XML/XML_Introduction
 ---
 
-Summary: This article introduces the 'eXtensible Markup Language' (XML) and tells of it's uses.XML (Extensible Markup Language) 是一种类似于 {{Glossary("HTML")}} 的标记语言，但是 XML 没有使用预定义的标记。因此，您可以根据自己的设计需求定义专属于您的标记。这是一种十分有用的可存储、可搜索和可共享的格式存储数据的方法。最重要的是，因为 XML 的基本格式是标准化的，所以如果您跨系统或平台共享或传输 XML，无论是在本地还是在互联网上，接收方仍然可以根据标准化的 XML 语法解析数据。
+XML (eXtensible Markup Language) 是一种类似于 {{Glossary("HTML")}} 的标记语言，但是 XML 没有使用预定义的标记。因此，您可以根据自己的设计需求定义专属于您的标记。这是一种十分有用的可存储、可搜索和可共享的格式存储数据的方法。最重要的是，因为 XML 的基本格式是标准化的，所以如果您跨系统或平台共享或传输 XML，无论是在本地还是在互联网上，接收方仍然可以根据标准化的 XML 语法解析数据。
 
-有许多基于 XML 的语言；一些示例是 [XHTML](/zh-CN/docs/Glossary/XHTML), [MathML](/zh-CN/docs/Web/MathML), [SVG](/zh-CN/docs/Web/SVG), [XUL](/zh-CN/docs/Mozilla/Tech/XUL), [XBL](/zh-CN/docs/Mozilla/Tech/XBL), [RSS](/zh-CN/docs/Web/RSS), 和 [RDF](/zh-CN/docs/Web/RDF)。你也可以创建自己的。
+有许多基于 XML 的语言， 例如 [XHTML](/zh-CN/docs/Glossary/XHTML)、[MathML](/zh-CN/docs/Web/MathML)、[SVG](/zh-CN/docs/Web/SVG)、[RSS](/zh-CN/docs/Glossary/RSS) 和 [RDF](/zh-CN/docs/Glossary/RDF)。你也可以创建自己的语言。
 
 ## 结构 XML 文档
 
@@ -64,23 +64,23 @@ XML 整体结构和 XML 是基于{{Glossary("tag")}}语言的。
 </message>
 ```
 
-一个包含没有定义标签的文档是无效的。例如，如果我们没有定义`<warning>`标签，这个文件将是无效的。
+一个包含没有定义标签的文档是无效的。例如，如果我们没有定义 `<warning>` 标签，这个文件将是无效的。
 
 > **备注：** 大多数浏览器都提供了可以识别格式不正确的 XML 文档的调试器。
 
 ## 实体
 
-像 HTML 一样，XML 为一些特别预留的符号定义了一些方法，称为实体（entities），（例如用于标记的大于号）。下面是五个你必须知道的符号：
+像 HTML 一样，XML 为一些特别预留的符号定义了一些方法，称为实体（entities）（例如用于标记的大于号）。下面是五个你必须知道的符号：
 
-| 方法   | 符号 | 描述       |
+| 实体   | 符号 | 描述       |
 | ------ | ---- | ---------- |
-| &lt;   | <    | 小于符号   |
-| &gt;   | >    | 大于符号   |
-| &amp;  | &    | 和         |
-| &quot; | "    | 一个双引号 |
-| &apos; | '    | 一个单引号 |
+| &amp;lt;   | <    | 小于符号   |
+| &amp;gt;   | >    | 大于符号   |
+| &amp;amp;  | &    | 和         |
+| &amp;quot; | "    | 一个双引号 |
+| &amp;apos; | '    | 一个单引号 |
 
-这里只有五个声明的方法，更多的方法可以借助 [Document Type Definition](/zh-CN/docs/Glossary/DTD) （文档的类定义）被引入。例如，为了创建一个`&warning 实体`，你可以这样做：
+这里只有五个声明的方法，更多的方法可以借助 [Document Type Definition](/zh-CN/docs/Glossary/DTD) （文档的类定义）被引入。例如，为了创建一个 `&warning;` 实体，你可以这样做：
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
