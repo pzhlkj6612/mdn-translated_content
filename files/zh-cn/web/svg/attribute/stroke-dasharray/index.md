@@ -17,7 +17,7 @@ slug: Web/SVG/Attribute/stroke-dasharray
 | 可变性 | Yes                                |
 
 - \<dasharray>
-  - : 它是一个[\<length>](/zh-CN/SVG/Content_type#Length)和[\<percentage>](/zh-CN/SVG/Content_type#Percentage)数列，数与数之间用逗号或者空白隔开，指定短划线和缺口的长度。如果提供了奇数个值，则这个值的数列重复一次，从而变成偶数个值。因此，**5,3,2**等同于**5,3,2,5,3,2**。
+  - : 它是一个[\<length>](/zh-CN/Web/SVG/Content_type#Length)和[\<percentage>](/zh-CN/Web/SVG/Content_type#Percentage)数列，数与数之间用逗号或者空白隔开，指定短划线和缺口的长度。如果提供了奇数个值，则这个值的数列重复一次，从而变成偶数个值。因此，**5,3,2**等同于**5,3,2,5,3,2**。
 
 ## 示例
 
@@ -51,7 +51,7 @@ line{
 
 ## 元素
 
-下列元素可以使用`stroke-dasharray 属性：`
+下列元素可以使用`stroke-dasharray` 属性：
 
 - [形状元素](/zh-CN/SVG/Element#Shape_elements) »
 - [文本内容元素](/zh-CN/SVG/Element#Text_content_elements) »

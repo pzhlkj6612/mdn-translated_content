@@ -5,7 +5,7 @@ slug: Web/SVG/Element/feMergeNode
 
 {{SVGRef}}
 
-`feMergeNode 元素拿另一个滤镜的结果，让它的父`{{ SVGElement("feMerge") }}元素处理。
+`feMergeNode` 元素拿另一个滤镜的结果，让它的父{{ SVGElement("feMerge") }}元素处理。
 
 ## 用法
 

@@ -13,11 +13,11 @@ slug: Web/SVG/Attribute/filter
 
 | 类别     | 外观属性                                                                        |
 | -------- | ------------------------------------------------------------------------------- |
-| 值       | [\<funciri>](/zh-CN/SVG/Content_type#FuncIRI) \| **none** \| inherit                |
+| 值       | [\<funciri>](/zh-CN/Web/SVG/Content_type#FuncIRI) \| **none** \| inherit                |
 | 可变性   | Yes                                                                             |
 | 规范文档 | [SVG 1.1 (2nd Edition)](http://www.w3.org/TR/SVG11/filters.html#FilterProperty) |
 
-- [\<funciri>](/zh-CN/SVG/Content_type#FuncIRI)
+- [\<funciri>](/zh-CN/Web/SVG/Content_type#FuncIRI)
   - : 元素的引用，它定义了将要应用到该元素的滤镜效果。
 - none
   - : 不对该元素应用任何滤镜效果。

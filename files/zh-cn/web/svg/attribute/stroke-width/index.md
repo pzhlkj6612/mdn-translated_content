@@ -13,7 +13,7 @@ slug: Web/SVG/Attribute/stroke-width
 
 | 类别   | 外观属性                                                                                              |
 | ------ | ----------------------------------------------------------------------------------------------------- |
-| 值     | [\<length>](/zh-CN/SVG/Content_type#Length) \| [\<percentage>](/zh-CN/SVG/Content_type#Percentage) \| inherit |
+| 值     | [\<length>](/zh-CN/Web/SVG/Content_type#Length) \| [\<percentage>](/zh-CN/Web/SVG/Content_type#Percentage) \| inherit |
 | 可变性 | Yes                                                                                                   |
 
 ## 示例

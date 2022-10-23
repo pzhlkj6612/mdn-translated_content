@@ -13,7 +13,7 @@ slug: Web/SVG/Attribute/repeatCount
 
 | 类别       | 动画时间属性                                            |
 | ---------- | ------------------------------------------------------- |
-| Value      | [\<number>](/zh-CN/SVG/Content_type#Number) \| "indefinite" |
+| Value      | [\<number>](/zh-CN/Web/SVG/Content_type#Number) \| "indefinite" |
 | Animatable | No                                                      |
 
 {{ page("/en/SVG/Content_type","Number") }}

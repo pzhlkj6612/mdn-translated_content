@@ -13,7 +13,7 @@ slug: Web/SVG/Attribute/height
 
 | 类别   | 无                                      |
 | ------ | --------------------------------------- |
-| 值     | [\<length>](/zh-CN/SVG/Content_type#Length) |
+| 值     | [\<length>](/zh-CN/Web/SVG/Content_type#Length) |
 | 可变性 | Yes                                     |
 
 {{ page("/zh-CN/Content_type","Length") }}

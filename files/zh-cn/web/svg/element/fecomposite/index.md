@@ -7,7 +7,7 @@ slug: Web/SVG/Element/feComposite
 
 该滤镜执行两个输入图像的智能像素组合，在图像空间中使用以下 Porter-Duff 合成操作之一：over、in、atop、xor。另外，还可以应用一个智能组件`arithmetic` 操作（结果被压到 `[0,1]` 范围内）。
 
-`该 arithmetic 操作对组合来自`{{SVGElement("feDiffuseLighting")}}滤镜和来自{{SVGElement("feSpecularLighting")}} 滤镜的`输出以及组合纹理数据很有用`。如果选择了`arithmetic`操作，每个结果像素都要经过下面的方程式的计算：
+该 `arithmetic` 操作对组合来自{{SVGElement("feDiffuseLighting")}}滤镜和来自{{SVGElement("feSpecularLighting")}} 滤镜的输出以及组合纹理数据很有用。如果选择了`arithmetic`操作，每个结果像素都要经过下面的方程式的计算：
 
 ```plain
 result = k1*i1*i2 + k2*i1 + k3*i2 + k4

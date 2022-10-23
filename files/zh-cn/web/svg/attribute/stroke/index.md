@@ -11,7 +11,7 @@ slug: Web/SVG/Attribute/stroke
 
 | 类别   | 外观属性                              |
 | ------ | ------------------------------------- |
-| 值     | [\<paint>](/zh-CN/SVG/Content_type#Paint) |
+| 值     | [\<paint>](/zh-CN/Web/SVG/Content_type#Paint) |
 | 可变性 | 是                                    |
 
 ## 示例

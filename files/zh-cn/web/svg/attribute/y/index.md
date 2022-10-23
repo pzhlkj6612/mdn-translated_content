@@ -13,7 +13,7 @@ slug: Web/SVG/Attribute/y
 
 | 类别   | 无                                              |
 | ------ | ----------------------------------------------- |
-| 值     | [\<coordinate>](/zh-CN/SVG/Content_type#Coordinate) |
+| 值     | [\<coordinate>](/zh-CN/Web/SVG/Content_type#Coordinate) |
 | 可变性 | Yes                                             |
 
 {{ page("/en/SVG/Content_type","coordinate") }}
