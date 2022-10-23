@@ -126,7 +126,7 @@ _Пример 2: Меню, использующее атрибут tabindex дл
 
 #### Техника вторая: aria-activedescendant
 
-Эта техника позволяет объединить каждый отдельно взятый обработчик событий в контейнер графического элемента и использовать `aria-activedescendent` для слежения за "виртуальным" фокусом . (Для получения более подробной информации относительно ARIA обратите внимание на [обзор доступных веб-приложений и виджетов](/ru/docs/Web/Accessibility/An_overview_of_accessible_web_applications_and_widgets).)
+Эта техника позволяет объединить каждый отдельно взятый обработчик событий в контейнер графического элемента и использовать `aria-activedescendant` для слежения за "виртуальным" фокусом . (Для получения более подробной информации относительно ARIA обратите внимание на [обзор доступных веб-приложений и виджетов](/ru/docs/Web/Accessibility/An_overview_of_accessible_web_applications_and_widgets).)
 
 The `aria-activedescendant` property identifies the ID of the descendent element that currently has the virtual focus. The event handler on the container must respond to key and mouse events by updating the value of `aria-activedescendant` and ensuring that the current item is styled appropriately (for example, with a border or background color).
 

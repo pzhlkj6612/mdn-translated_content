@@ -37,7 +37,7 @@ slug: Web/Accessibility/ARIA/Roles/textbox_role
 
 ### 関連する ARIA のプロパティ
 
-- `aria-activedescendent` 属性
+- `aria-activedescendant` 属性
   - : その値として、ID は DOM のフォーカスを持つ要素の子孫であるか、または `aria-owns` 属性で指定された論理的子孫であり、[`combobox`](/ja/docs/Web/Accessibility/ARIA/Roles/combobox) などの複合ウィジェットの一部であるときに、その要素にフォーカスがあるときを示します。 たとえば、コンボボックスでは、テキストボックスにフォーカスが残ることがありますが、`textbox` 要素の `aria-activedescendant` の値は、テキストボックスによって制御されるポップアップリストボックスの子孫を参照します。 この属性は、フォーカスが変更されるとプログラムで更新する必要があります。
 - `aria-autocomplete` 属性
 
@@ -85,8 +85,8 @@ slug: Web/Accessibility/ARIA/Roles/textbox_role
 
 すべてのプロパティとステートに関連するすべての機能を維持する必要があります。 また、単一行のテキストボックスにおいて <kbd>Enter</kbd> や <kbd>Return</kbd> でフォームを送信する必要があります。
 
-- フォーカスイベントハンドラと aria-activedescendent 属性
-  - : テキストボックスとリストボックスで構成されるコンボボックスなどの複合ウィジェットを実装する場合は、ハンドラを使用して `aria-activedescendent` 属性を管理する必要があります。 この手法を使用する前に、ターゲットとするブラウザーが現在サポートしていることを確認してください。 詳細については、[aria-descendent の仕様](https://www.w3.org/TR/wai-aria/#aria-activedescendant)（英語）を参照してください。
+- フォーカスイベントハンドラと aria-activedescendant 属性
+  - : テキストボックスとリストボックスで構成されるコンボボックスなどの複合ウィジェットを実装する場合は、ハンドラを使用して `aria-activedescendant` 属性を管理する必要があります。 この手法を使用する前に、ターゲットとするブラウザーが現在サポートしていることを確認してください。 詳細については、[aria-descendent の仕様](https://www.w3.org/TR/wai-aria/#aria-activedescendant)（英語）を参照してください。
 
 > **メモ:** ARIA の `textbox` ロールの代わりに `type="text"` の {{HTMLElement("input")}} 要素、または {{HTMLElement("textarea")}} 要素を使用する方が良い方法です。 どちらの意味論的な要素を使用する場合でも、ARIA の `textbox` ロールは必要ありません。 [HTML で ARIA を使用する場合の注意](https://www.w3.org/TR/aria-in-html/)（英語）を参照してください。
 

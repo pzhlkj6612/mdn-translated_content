@@ -138,7 +138,7 @@ _范例 2: 一个使用 tabindex 控制键盘 access 的菜单控件_
 当用户从一个组件 tab 离开之后 focus 回来，焦点应该回到离开之时正被 focus 中的元素上，比如某个树节点或者网格单元。有两种办法完成这一点：
 
 1. `流动 tabindex`: 通过编程移动 focus
-2. `aria-activedescendent`: 管理一个“虚拟”focus
+2. `aria-activedescendant`: 管理一个“虚拟”focus
 
 #### 方法 1: 流动 tabindex
 
@@ -166,7 +166,7 @@ _范例 2: 一个使用 tabindex 控制键盘 access 的菜单控件_
 
 #### 方法 2: aria-activedescendant
 
-这个办法包含绑定一个单独的事件句柄到容器窗口组件上，运用 `aria-activedescendent 属性`来追踪一个 "虚拟" 焦点。（关于 ARIA 更多的信息，查看 [overview of accessible web applications and widgets](../../../../An_Overview_of_Accessible_Web_Applications_and_Widgets).）
+这个办法包含绑定一个单独的事件句柄到容器窗口组件上，运用 `aria-activedescendant 属性`来追踪一个 "虚拟" 焦点。（关于 ARIA 更多的信息，查看 [overview of accessible web applications and widgets](../../../../An_Overview_of_Accessible_Web_Applications_and_Widgets).）
 
 `aria-activedescendant` 属性用来标识拥有虚拟焦点的后代元素的 ID。在窗口容器的事件句柄里面在键盘和鼠标事件响应更新 aria-activedescendant 值并且确保当前 The event handler on the container must respond to key and mouse events by updating the value of `aria-activedescendant` and ensuring that the current item is styled appropriately (for example, with a border or background color).
 
