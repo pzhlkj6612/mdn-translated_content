@@ -30,7 +30,7 @@ dateObj.setUTCMilliseconds(millisecondsValue)
 
 ## 示例
 
-### 使用 `setUTCMilliseconds() 方法`
+### 使用 `setUTCMilliseconds()` 方法
 
 ```js
 var theBigDay = new Date();

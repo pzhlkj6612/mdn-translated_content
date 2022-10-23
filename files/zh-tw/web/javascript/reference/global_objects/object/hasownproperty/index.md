@@ -73,7 +73,7 @@ for (var name in buz) {
 }
 ```
 
-### `將 hasOwnProperty` 作為屬性
+### 將 `hasOwnProperty` 作為屬性
 
 JavaScript 並未保護 `hasOwnProperty`；因此，如果一個物件擁有一樣的屬性名稱，為了獲得正確的結果需要使用 _external_ `hasOwnProperty`：
 

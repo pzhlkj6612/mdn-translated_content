@@ -15,7 +15,7 @@ expr1, expr2, expr3...
 
 ## 參數
 
-- `expr1`, `expr2, expr3...`
+- `expr1`, `expr2`, `expr3...`
   - : Any expressions.
 
 ## 描述

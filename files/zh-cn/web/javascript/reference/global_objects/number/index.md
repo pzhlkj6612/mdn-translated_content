@@ -73,7 +73,7 @@ b instanceof Number; // is false
 
 ## `Number` 实例
 
-所有 `Number` 实例都继承自 {{jsxref("Number.prototype")}}。`被修改的 Number` 构造器的原型对象对全部 `Number` 实例都生效。
+所有 `Number` 实例都继承自 {{jsxref("Number.prototype")}}。被修改的 `Number` 构造器的原型对象对全部 `Number` 实例都生效。
 
 ### 方法
 

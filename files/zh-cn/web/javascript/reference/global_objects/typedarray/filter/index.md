@@ -17,7 +17,7 @@ typedarray.filter(callback[, thisArg])
 
 - `callback`
   - : 测试类型化数组每个元素的函数，以参数 `(element, index, typedarray)`调用。如果返回 `true`则保留该元素，如果返回`false`则相反。
-- `thisArg {{optional_inline}}`
+- `thisArg` {{optional_inline}}
   - : 可选，执行`callback`时作为`this`的值。
 
 ### 返回值

@@ -22,7 +22,7 @@ import.meta
 
 ## 示例
 
-这里有一个 `my-module.mjs 模块`
+这里有一个 `my-module.mjs` 模块
 
 ```html
 <script type="module" src="my-module.mjs"></script>

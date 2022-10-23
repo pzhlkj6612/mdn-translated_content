@@ -19,7 +19,7 @@ var p = new Proxy(target, {
 
 ### 参数
 
-以下是传递给 get 方法的参数，`this 上下文绑定在`handler 对象上。
+以下是传递给 get 方法的参数，`this` 上下文绑定在 handler 对象上。
 
 - `target`
   - : 目标对象。
@@ -40,7 +40,7 @@ get 方法可以返回任何值。
 
 该方法会拦截目标对象的以下操作：
 
-- 访问属性：`proxy[foo] 和` `proxy.bar`
+- 访问属性：`proxy[foo]` 和 `proxy.bar`
 - 访问原型链上的属性：`Object.create(proxy)[foo]`
 - {{jsxref("Reflect.get()")}}
 

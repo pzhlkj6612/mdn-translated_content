@@ -42,7 +42,7 @@ fun.call(thisArg[, arg1[, arg2[, ...]]])
 ### 參數
 
 - `thisArg`
-  - : 呼叫*`fun`*時提供的`this`值。 注意，它可能是一個無法在函數內看到的值：若這個函數是在非嚴苛模式( [non-strict mode](/zh-TW/docs/JavaScript/Reference/Functions_and_function_scope/Strict_mode) ), `null` `、undefined` 將會被置換成全域變數，而原生型態的值將會被封裝
+  - : 呼叫 *`fun`* 時提供的 `this` 值。 注意，它可能是一個無法在函數內看到的值：若這個函數是在非嚴苛模式( [non-strict mode](/zh-TW/docs/JavaScript/Reference/Functions_and_function_scope/Strict_mode) ), `null` 和 `undefined` 將會被置換成全域變數，而原生型態的值將會被封裝。
 - `arg1, arg2, ...`
   - : 其他參數
 
@@ -50,13 +50,13 @@ fun.call(thisArg[, arg1[, arg2[, ...]]])
 
 你可以在呼叫一個現存的函數時，使用不一樣的 `this` 物件。 `this` 會參照到目前的物件，呼叫的物件上
 
-使用 `call，` 你可以實作函數一次，然後在其他的物件上直接繼承它，而不用在新的物件上重寫該函數
+使用 `call`，你可以實作函數一次，然後在其他的物件上直接繼承它，而不用在新的物件上重寫該函數。
 
 ## 範例
 
 ### 使用 `call` 來串接物件上的建構子
 
-你可以使用 `call` 來串接其他物件的建構子，就像 Java. 下面的例子中，`Product` 物件的建構子定義了兩個參數 `name` 以及 `price`. 其他函數`Food` 及 `Toy` 引用了 `Product` 並傳入 `this` 、 `name` 和 `price`。 Product 初始化它的屬性 `name` 和 `price`, 而兩個子函數則定義了`category。`
+你可以使用 `call` 來串接其他物件的建構子，就像 Java 那樣。下面的例子中，`Product` 物件的建構子定義了兩個參數 `name` 以及 `price`. 其他函數 `Food` 及 `Toy` 引用了 `Product` 並傳入 `this` 、 `name` 和 `price`。 Product 初始化它的屬性 `name` 和 `price`, 而兩個子函數則定義了 `category`。
 
 ```js
 function Product(name, price) {

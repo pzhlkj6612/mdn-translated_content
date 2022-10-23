@@ -47,7 +47,7 @@ Reflect.getOwnPropertyDescriptor([], "length");
 // {value: 0, writable: true, enumerable: false, configurable: false}
 ```
 
-### 与 `Object.getOwnPropertyDescriptor() 的不同点`
+### 与 `Object.getOwnPropertyDescriptor()` 的不同点
 
 如果该方法的第一个参数不是一个对象（一个原始值），那么将造成 {{jsxref("TypeError")}} 错误。而对于 {{jsxref("Object.getOwnPropertyDescriptor")}}，非对象的第一个参数将被强制转换为一个对象处理。
 

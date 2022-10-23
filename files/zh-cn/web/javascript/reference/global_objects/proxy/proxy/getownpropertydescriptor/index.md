@@ -19,7 +19,7 @@ var p = new Proxy(target, {
 
 ### 参数
 
-`下列参数会被传入 getOwnPropertyDescriptor` 方法中。这是绑定到 handler 上。
+下列参数会被传入 `getOwnPropertyDescriptor` 方法中。`this` 上下文绑定在 handler 对象上。
 
 - `target`
   - : 目标对象。

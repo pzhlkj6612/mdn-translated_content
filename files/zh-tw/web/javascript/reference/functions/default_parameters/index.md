@@ -5,7 +5,7 @@ slug: Web/JavaScript/Reference/Functions/Default_parameters
 
 {{jsSidebar("Functions")}}
 
-**函式預設參數** 允許沒有值傳入或是傳入值為 `undefined 的情況下，參數能以指定的預設值初始化。`
+**函式預設參數** 允許沒有值傳入或是傳入值為 `undefined` 的情況下，參數能以指定的預設值初始化。
 
 ## 語法
 
@@ -17,9 +17,9 @@ function [name]([param1[ = defaultValue1 ][, ..., paramN[ = defaultValueN ]]]) {
 
 ## 說明
 
-在 JavaScript 中，函式的參數預設值都為 `{{jsxref("undefined")}} 。然而，指定不同的預設值可能在一些場景很有用。這也是函式參數預設值可以幫上忙的地方。`
+在 JavaScript 中，函式的參數預設值都為 `{{jsxref("undefined")}}` 。然而，指定不同的預設值可能在一些場景很有用。這也是函式參數預設值可以幫上忙的地方。
 
-以往設定預設值有個普遍方法：在函式的內容裡檢查傳入參數是否為 `undefined ，如果是的話，爲他指定一個值。如下列範例，若函式被呼叫時，並沒有提供 b 的值，它的值就會是 undefined，在計算 a*b 時，以及呼叫 multiply 時，就會回傳 NaN。然而這在範例的第二行被阻止了：`:
+以往設定預設值有個普遍方法：在函式的內容裡檢查傳入參數是否為 `undefined` ，如果是的話，爲他指定一個值。如下列範例，若函式被呼叫時，並沒有提供 b 的值，它的值就會是 `undefined`，在計算 a*b 時，以及呼叫 `multiply` 時，就會回傳 `NaN`。然而這在範例的第二行被阻止了：
 
 ```js
 function multiply(a, b) {

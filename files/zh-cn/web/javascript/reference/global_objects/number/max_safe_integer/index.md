@@ -15,7 +15,7 @@ slug: Web/JavaScript/Reference/Global_Objects/Number/MAX_SAFE_INTEGER
 
 这里安全存储的意思是指能够准确区分两个不相同的值，例如 `Number.MAX_SAFE_INTEGER + 1 === Number.MAX_SAFE_INTEGER + 2` 将得到 true 的结果，而这在数学上是错误的，参考{{jsxref("Number.isSafeInteger()")}}获取更多信息。
 
-由于 `MAX_SAFE_INTEGER 是`{{jsxref("Number")}}的一个`静态属性，所以你不用自己动手为`{{jsxref("Number")}}对象创建`Number.MAX_SAFE_INTEGER`这一属性，就可以直接使用它。
+由于 `MAX_SAFE_INTEGER` 是 {{jsxref("Number")}} 的一个静态属性，所以你不用自己动手为 {{jsxref("Number")}} 对象创建 `Number.MAX_SAFE_INTEGER` 这一属性，就可以直接使用它。
 
 ## 示例
 

@@ -45,11 +45,11 @@ new Float64Array(buffer [, byteOffset [, length]]);
 - `Float64Array.prototype.constructor`
   - : 返回创建这个实例原型的函数。这是 `Float64Array` 默认的构造函数。
 - {{jsxref("TypedArray.prototype.buffer", "Float64Array.prototype.buffer")}} {{readonlyInline}}
-  - : 返回这个`Float64Array 引用的` {{jsxref("ArrayBuffer")}}。构造时已固定，所以是**只读**的。
+  - : 返回这个 `Float64Array` 引用的 {{jsxref("ArrayBuffer")}}。构造时已固定，所以是**只读**的。
 - {{jsxref("TypedArray.prototype.byteLength", "Float64Array.prototype.byteLength")}} {{readonlyInline}}
-  - : 返回从`Float64Array 的`{{jsxref("ArrayBuffer")}}开头开始`的`长度 (以字节为单位) 。构造时已固定，所以是**只读**的。
+  - : 返回从 `Float64Array` 的 {{jsxref("ArrayBuffer")}} 开头开始的长度 (以字节为单位) 。构造时已固定，所以是**只读**的。
 - {{jsxref("TypedArray.prototype.byteOffset", "Float64Array.prototype.byteOffset")}} {{readonlyInline}}
-  - : 返回从`Float64Array 的`{{jsxref("ArrayBuffer")}}开头开始`的偏移量` (以字节为单位) 。构造时已固定，所以是**只读**的。
+  - : 返回从 `Float64Array` 的 {{jsxref("ArrayBuffer")}} 开头开始的偏移量 (以字节为单位) 。构造时已固定，所以是**只读**的。
 - {{jsxref("TypedArray.prototype.length", "Float64Array.prototype.length")}} {{readonlyInline}}
   - : 返回 `Float64Array` 中的元素个数。构造时已固定，所以是**只读**的。
 
@@ -58,7 +58,7 @@ new Float64Array(buffer [, byteOffset [, length]]);
 - {{jsxref("TypedArray.copyWithin", "Float64Array.prototype.copyWithin()")}}
   - : 从数组复制元素。参见{{jsxref("Array.prototype.copyWithin()")}}。
 - {{jsxref("TypedArray.entries", "Float64Array.prototype.entries()")}}
-  - : `返回一个包含数组中每个元素键值对的数组遍历器对象`。参见{{jsxref("Array.prototype.entries()")}}。
+  - : 返回一个包含数组中每个元素键值对的数组遍历器对象。参见 {{jsxref("Array.prototype.entries()")}}。
 - {{jsxref("TypedArray.every", "Float64Array.prototype.every()")}}
   - : 检测是否所有元素都能通过给定函数的测试。参见{{jsxref("Array.prototype.every()")}}。
 - {{jsxref("TypedArray.fill", "Float64Array.prototype.fill()")}}

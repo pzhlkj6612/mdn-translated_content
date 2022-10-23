@@ -13,9 +13,9 @@ slug: Web/JavaScript/Reference/Global_Objects/Array/from
 
 - `arrayLike`
   - : 將類陣列或可迭代物件轉換成陣列
-- `mapFn {{Optional_inline}}`
+- `mapFn` {{Optional_inline}}
   - : Map 函式走訪陣列中的每一個元素。
-- `thisArg {{Optional_inline}}`
+- `thisArg` {{Optional_inline}}
   - : `mapFn` 函式執行時的 `this` 對象。
 
 ### 回傳值

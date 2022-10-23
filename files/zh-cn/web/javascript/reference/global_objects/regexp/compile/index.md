@@ -36,7 +36,7 @@ regexObj.compile(pattern, flags)
 
 ## 示例
 
-### `使用 compile()`
+### 使用 `compile()`
 
 以下展示如何用新模式和新标志来重新编译正则表达式。
 

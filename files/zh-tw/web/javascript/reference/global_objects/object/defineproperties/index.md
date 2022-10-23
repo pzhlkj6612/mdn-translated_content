@@ -25,13 +25,13 @@ Object.defineProperties(obj, props)
       - : `true` if and only if the type of this property descriptor may be changed and if the property may be deleted from the corresponding object.
         **預設為 `false`.**
     - `enumerable`
-      - : `若該屬性設為 true，則該屬性可被物件所列舉。`
+      - : 若該屬性設為 `true`，則該屬性可被物件所列舉。
         **預設為 `false`.**
     - `value`
       - : The value associated with the property. Can be any valid JavaScript value (number, object, function, etc).
         **預設為 {{jsxref("undefined")}}.**
     - `writable`
-      - : `若該屬性為 true`，則該屬性可透過{{jsxref("Operators/Assignment_Operators", "賦予運算子", "", 1)}}所改變
+      - : 若該屬性為 `true`，則該屬性可透過 {{jsxref("Operators/Assignment_Operators", "賦予運算子", "", 1)}} 所改變。
         **預設為 `false`.**
     - `get`
       - : A function which serves as a getter for the property, or {{jsxref("undefined")}} if there is no getter. The function return will be used as the value of property.

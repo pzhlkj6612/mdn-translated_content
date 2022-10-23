@@ -17,7 +17,7 @@ ECMAScript 5 引入了 [strict mode](/zh-CN/docs/JavaScript/Strict_mode) ,现在
 
 ### 语法错误
 
-如果代码中使用`"use strict"开启了严格模式`,则下面的情况都会在脚本运行之前抛出[SyntaxError](/zh-CN/docs/Core_JavaScript_1.5_Guide/SyntaxError)异常：
+如果代码中使用 `"use strict"` 开启了严格模式，则下面的情况都会在脚本运行之前抛出 [SyntaxError](/zh-CN/docs/Core_JavaScript_1.5_Guide/SyntaxError) 异常：
 
 - 八进制语法`:var n = 023 和 var s = "\047"`
 - [`with`](/zh-CN/docs/JavaScript/Reference/Statements/with)语句
@@ -110,7 +110,7 @@ s.opacity = 1;
 
 在非严格模式中，修改 `arguments` 对象中某个索引属性的值，和这个属性对应的形参变量的值也会同时变化，反之亦然。这会让 JavaScript 的代码混淆引擎让代码变得更难读和理解。在严格模式中 `arguments` 对象会以形参变量的拷贝的形式被创建和初始化，因此 `arguments` 对象的改变不会影响形参。
 
-#### `eval 相关的区别`
+#### `eval` 相关的区别
 
 在严格模式中，`eval` 不会在当前的作用域内创建新的变量。另外，传入 `eval` 的字符串参数也会按照严格模式来解析。你需要全面测试来确保没有代码收到影响。另外，如果你并不是为了解决一个非常实际的解决方案中，尽量不要使用 `eval`。
 

@@ -283,7 +283,7 @@ alert(x); // throws an error
 
 正如第四个例子所展示的那样，函数名与被函数赋值的变量是不相同的。彼此之间没有关系。函数声明同时也创建了一个和函数名相同的变量。因此，与函数表达式定义不同，以函数声明定义的函数能够在它们被定义的作用域内通过函数名而被访问到：
 
-使用用 '`new Function'定义的函数没有函数名。` 然而，在 [SpiderMonkey](/zh-CN/docs/Mozilla/Projects/SpiderMonkey) JavaScript 引擎中，其函数的序列化形式表现的好像它拥有一个名叫"anonymous"的名称一样。比如，使用 `alert(new Function())` 输出：
+使用 `new Function` 定义的函数没有函数名。 然而，在 [SpiderMonkey](/zh-CN/docs/Mozilla/Projects/SpiderMonkey) JavaScript 引擎中，其函数的序列化形式表现的好像它拥有一个名叫"anonymous"的名称一样。比如，使用 `alert(new Function())` 输出：
 
 ```js
 function anonymous() {

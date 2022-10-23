@@ -7,7 +7,7 @@ slug: Web/JavaScript/Reference/Global_Objects/Math/log1p
 
 ## 概述
 
-**`Math.log1p()`** 函数返回一个数字加 1 后的自然对数 (底为 `E`), 既`log(x+1)`.
+**`Math.log1p()`** 函数返回一个数字加 1 后的自然对数 (底为 `E`), 即 `log(x+1)` 。
 
 ## 语法
 

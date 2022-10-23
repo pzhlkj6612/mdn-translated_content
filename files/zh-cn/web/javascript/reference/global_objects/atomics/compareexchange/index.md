@@ -33,8 +33,8 @@ Atomics.compareExchange(typedArray, index, expectedValue, replacementValue)
 ### 错误
 
 - 假如 `typedArray` 不是允许的整型之一，则抛出 {{jsxref("TypeError")}}。
-- `假如 typedArray` 不是一个贡献的 typed array，则抛出 {{jsxref("TypeError")}}。
-- 如果 `index` 超出了 `typedArray 的边界，则抛出` {{jsxref("RangeError")}}。
+- 假如 `typedArray` 不是一个贡献的 typed array，则抛出 {{jsxref("TypeError")}}。
+- 如果 `index` 超出了 `typedArray` 的边界，则抛出 {{jsxref("RangeError")}}。
 
 ## 示例
 

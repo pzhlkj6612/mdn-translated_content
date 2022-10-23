@@ -183,7 +183,7 @@ var dateObjectName = new Date([parameters]);
 - 一个年，月，日的整型值的集合，例如： `var Xmas95 = new Date(1995, 11, 25)`。
 - 一个年，月，日，时，分，秒的集合，例如： `var Xmas95 = new Date(1995, 11, 25, 9, 30, 0);`.
 
-### `Date 对象的方法`
+### `Date` 对象的方法
 
 处理日期时间的 Date 对象方法可分为以下几类：
 

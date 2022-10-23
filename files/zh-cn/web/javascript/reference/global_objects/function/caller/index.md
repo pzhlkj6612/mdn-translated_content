@@ -13,7 +13,7 @@ slug: Web/JavaScript/Reference/Global_Objects/Function/caller
 
 ## 描述
 
-如果一个函数 `f` 是在全局作用域内被调用的，则 `f.caller 为` `null`。相反，如果一个函数是在另外一个函数作用域内被调用的，则 `f.caller` 指向调用它的那个函数。
+如果一个函数 `f` 是在全局作用域内被调用的，则 `f.caller` 为 `null`。相反，如果一个函数是在另外一个函数作用域内被调用的，则 `f.caller` 指向调用它的那个函数。
 
 该属性的常用形式 `arguments.callee.caller` 替代了被废弃的 [arguments.caller](/zh-CN/JavaScript/Reference/Functions_and_function_scope/arguments/caller).
 

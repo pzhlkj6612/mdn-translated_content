@@ -30,7 +30,7 @@ isNaN(value)
 
 与 JavaScript 中其他的值不同，{{jsxref("Global_Objects/NaN", "NaN")}}不能通过相等操作符（== 和 ===）来判断，因为 `NaN == NaN` 和 `NaN === NaN` 都会返回 `false`。因此，`isNaN` 就很有必要了。
 
-### `NaN 值`的产生
+### `NaN` 值的产生
 
 当算术运算返回一个未定义的或无法表示的值时，`NaN`就产生了。但是，`NaN`并不一定用于表示某些值超出表示范围的情况。将某些不能强制转换为数值的非数值转换为数值的时候，也会得到`NaN`。
 
@@ -40,7 +40,7 @@ isNaN(value)
 
 如果`isNaN`函数的参数不是`Number`类型， `isNaN`函数会首先尝试将这个参数转换为数值，然后才会对转换后的结果是否是{{jsxref("NaN")}}进行判断。因此，对于能被强制转换为有效的非 NaN 数值来说（空字符串和布尔值分别会被强制转换为数值 0 和 1），返回`false`值也许会让人感觉莫名其妙。比如说，空字符串就明显“不是数值（not a number）”。这种怪异行为起源于："不是数值（not a number）"在基于 IEEE-754 数值的浮点计算体制中代表了一种特定的含义。`isNaN`函数其实等同于回答了这样一个问题：被测试的值在被强制转换成数值时会不会返回 IEEE-754​ 中所谓的“不是数值（not a number）”。
 
-下一个版本的 ECMAScript (ES2015) 包含{{jsxref("Number.isNaN()")}}函数。通过`Number.isNaN(x)`来检测变量`x`是否是一个`NaN`将会是一种可靠的做法。然而，在缺少`Number.isNaN`函数的情况下，通过表达式`(x != x)` 来检测`变量 x`是否是`NaN`会更加可靠。
+下一个版本的 ECMAScript (ES2015) 包含 {{jsxref("Number.isNaN()")}} 函数。通过 `Number.isNaN(x)` 来检测变量 `x` 是否是一个 `NaN` 将会是一种可靠的做法。然而，在缺少 `Number.isNaN` 函数的情况下，通过表达式 `(x != x)` 来检测变量 `x` 是否是 `NaN` 会更加可靠。
 
 一个`isNaN`的 polyfill 可以理解为（这个 polyfill 利用了`NaN`自身永不相等于自身这一特征）：
 

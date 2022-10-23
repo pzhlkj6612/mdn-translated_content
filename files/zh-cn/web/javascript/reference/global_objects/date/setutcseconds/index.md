@@ -5,7 +5,7 @@ slug: Web/JavaScript/Reference/Global_Objects/Date/setUTCSeconds
 
 {{JSRef}}
 
-`此 setUTCSeconds()` 方法为一个依据国际通用时间的特定日期设置秒数。
+此 `setUTCSeconds()` 方法为一个依据国际通用时间的特定日期设置秒数。
 
 {{EmbedInteractiveExample("pages/js/date-setutcseconds.html")}}
 

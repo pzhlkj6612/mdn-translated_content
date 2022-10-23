@@ -22,11 +22,11 @@ Math.atanh(x)
 
 ## 描述
 
-由于 `atanh()` 是 `Math 的静态方法`,所以应该像这样使用：`Math.atanh()`，而不是作为你创建的 `Math` 实例的方法（`Math 不是一个构造函数`）。
+由于 `atanh()` 是 `Math` 的静态方法,所以应该像这样使用：`Math.atanh()`，而不是作为你创建的 `Math` 实例的方法（`Math` 不是一个构造函数）。
 
 ## 示例
 
-### `使用 Math.atanh()`
+### 使用 `Math.atanh()`
 
 ```js
 Math.atanh(-2);  // NaN
