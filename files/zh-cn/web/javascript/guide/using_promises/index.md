@@ -226,7 +226,7 @@ window.addEventListener("unhandledrejection", event => {
 
 可以通过 Promise 的构造器从零开始创建 {{jsxref("Promise")}}。这种方式（通过构造器的方式）应当只在封装旧 API 的时候用到。
 
-理想状态下，所有的异步函数都已经返回 Promise 了。但有一些 API 仍然使用旧方式来传入的成功（或者失败）的回调。典型的例子就是 {{domxref("WindowTimers.setTimeout", "setTimeout()")}} 函数：
+理想状态下，所有的异步函数都已经返回 Promise 了。但有一些 API 仍然使用旧方式来传入的成功（或者失败）的回调。典型的例子就是 {{domxref("window.setTimeout", "setTimeout()")}} 函数：
 
 ```js
 setTimeout(() => saySomething("10 seconds passed"), 10000);

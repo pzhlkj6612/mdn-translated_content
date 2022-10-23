@@ -25,7 +25,7 @@ slug: Web/API/Background_Tasks_API
 
 ### 回退到 setTimeout
 
-因为后台任务 API 还是相当新的，而你的代码可能需要在那些不仍不支持此 API 的浏览器上运行。你可以把 {{domxref("WindowTimers.setTimeout()", "setTimeout()")}} 用作回调选项来做这样的事。这个并不是 {{Glossary("polyfill")}} ，因为它在功能上并不相同； `setTimeout()` 并不会让你利用空闲时段，而是使你的代码在情况允许时执行你的代码，以使我们可以尽可能地避免造成用户体验性能表现延迟的后果。
+因为后台任务 API 还是相当新的，而你的代码可能需要在那些不仍不支持此 API 的浏览器上运行。你可以把 {{domxref("window.setTimeout()", "setTimeout()")}} 用作回调选项来做这样的事。这个并不是 {{Glossary("polyfill")}} ，因为它在功能上并不相同； `setTimeout()` 并不会让你利用空闲时段，而是使你的代码在情况允许时执行你的代码，以使我们可以尽可能地避免造成用户体验性能表现延迟的后果。
 
 ```js
 window.requestIdleCallback = window.requestIdleCallback || function(handler) {
@@ -44,7 +44,7 @@ window.requestIdleCallback = window.requestIdleCallback || function(handler) {
 
 如果 {{domxref("Window.requestIdleCallback", "window.requestIdleCallback")}} 是 undefined, 我们在这里把它创建出来。这个函数首先会记录我们调用具体实现的时间。我们将用它计算填充程序{{domxref("IdleDeadline.timeRemaining()", "timeRemaining()")}}返回的值。
 
-接着，我们调用 {{domxref("WindowTimers.setTimeout", "setTimeout()")}}，并给它传一个函数，在这个函数里，我们传给`requestIdleCallback()`的具体实现的回调会得以执行。这个回调会接收一个和{{domxref("IdleDeadline")}}相符合的 object，此 object 的 {{domxref("IdleDeadline.didTimeout", "didTimeout")}}被设定为 false，并拥有一个{{domxref("IdleDeadline.timeRemaining", "timeRemaining()")}} 方法，用来给回调函数 50 毫秒的开始时间。每次调用`timeRemaining()`，它都会从开始的 50 毫秒中减去已逝去的时间，来确定还剩余的时间。
+接着，我们调用 {{domxref("window.setTimeout", "setTimeout()")}}，并给它传一个函数，在这个函数里，我们传给`requestIdleCallback()`的具体实现的回调会得以执行。这个回调会接收一个和{{domxref("IdleDeadline")}}相符合的 object，此 object 的 {{domxref("IdleDeadline.didTimeout", "didTimeout")}}被设定为 false，并拥有一个{{domxref("IdleDeadline.timeRemaining", "timeRemaining()")}} 方法，用来给回调函数 50 毫秒的开始时间。每次调用`timeRemaining()`，它都会从开始的 50 毫秒中减去已逝去的时间，来确定还剩余的时间。
 
 结果是，虽然我们的填充程序不会像真正的`requestIdleCallback()`将自己限制在当前事件循环传递中的空闲时间内，但它至少将每次传递的运行时间限制为不超过 50 毫秒。
 

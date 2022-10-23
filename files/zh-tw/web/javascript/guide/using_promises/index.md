@@ -193,7 +193,7 @@ Promise 藉由捕捉所有錯誤，包含例外和程式錯誤，解決了 Callb
 
 {{jsxref("Promise")}} 可以透過建構子建立。所以用建構子包裹舊的 API 即可。
 
-在理想情況，所有非同步函數都會回傳 Promise，然而許多 API 仍然用舊的方式來傳遞成功、失敗 Callback，有個典型的例子是{{domxref("WindowTimers.setTimeout", "setTimeout()")}} ：
+在理想情況，所有非同步函數都會回傳 Promise，然而許多 API 仍然用舊的方式來傳遞成功、失敗 Callback，有個典型的例子是{{domxref("window.setTimeout", "setTimeout()")}} ：
 
 ```js
 setTimeout(() => saySomething("10 seconds passed"), 10000);
